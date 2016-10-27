@@ -1,0 +1,17 @@
+Name of QuantLet: SFEvolnonparest
+
+Published in: Statistics of Financial Markets
+
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and estimates the volatility of the DAX and FTSE 100 daily return processes from 1998 to 2007.'
+
+Keywords: conditional mean, conditional variance, interpolation, kernel, Nonparametric, nonparametric estimation, estimation, quadratic kernel, smoothing, volatility, plot, graphical representation, data visualization, dax, ftse100, financial, returns, index, asset, stock-price, time-series
+
+See also: SFEgarchest, SFElshill, SFEmvol01, SFEmvol03, SFEtail, SFEtimeret, SFEvolgarchest
+
+Author: Andrija Mihoci, Maria Osipenko, Awdesch Melzer
+
+Submitted: Thu, July 02 2015 by Awdesch Melzer
+
+Datafiles: FSE_LSE.dat
+
+Example: 'Nonparametric estimation of conditional variance of DAX and FSE.'

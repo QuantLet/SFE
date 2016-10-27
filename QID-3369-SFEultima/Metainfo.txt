@@ -1,0 +1,7 @@
+Name of QuantLet : SFEultima 
+Published in: Statistics of Financial Markets
+Description: 'Plots the Ultima of a call option (Ultima or DvommaDvol) as a function of the time to maturity and the asset price. Ultima is divided by 1,000,000 to reflect a one-percentage point change in volatility.'
+Keywords: asset, black-scholes, call, european-option, financial, graphical representation, greeks, option, option-price, plot
+Author: Andreas Golle, Awdesch Melzer
+Submitted: Tue, July 14 2015 by quantomas
+Example: 'User inputs [lower, upper] bound of asset price S like [50,150], [lower, upper] bound of time to maturity tau like [0.05, 1], then the plot of the Ultima of a call option is given.'

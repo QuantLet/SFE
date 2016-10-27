@@ -1,0 +1,19 @@
+Name of QuantLet : SFEbsbm
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the Black-Scholes price as a function of S_t, which is modelled as a geometric Brownian motion.'
+
+Keywords: 'asset, black-scholes, brownian-motion, call, european-option, financial, geometric-brownian-motion, graphical representation, option, option-price, plot, price, wiener-process'
+
+See also: SFSbb
+
+Author: Awdesch Melzer, Franziska Schulz
+
+Author[Matlab]: Szymon Borak
+
+Submitted: Tue, July 01 2014 by Petra Burdejova
+
+Output: 'Plot of the Call Black-Scholes price as a function of a Brownian Motion S_t.'
+
+Example: 'The plot is generated for the following parameter values: S0=100, K=110, r=0.05, si=0.3, tau=0.02'

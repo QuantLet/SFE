@@ -1,0 +1,8 @@
+Name of QuantLet : VaR
+Published in: Statistics of Financial Markets
+Description: 'An interactive example of VaR and CVaR calculation f or different distributional parameters.'
+Keywords: VaR, conditional VaR, density, forecast, graphical representation, interactive, plot, visualization
+See also: VaRDGdecomp, VaRcgfDG, VaRestMC, VaRqDG, VaRqqplot, Vasimle
+Author: Ostap Okhrin
+Submitted: Fri, July 24 2015 by quantomas
+Example: 'Plot of density function with VaR value.'

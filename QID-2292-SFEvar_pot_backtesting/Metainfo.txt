@@ -1,0 +1,26 @@
+Name of QuantLet: SFEvar_pot_backtesting
+
+Published in: Statistics of Financial Markets
+
+Description: 'Provides backtesting results for the Value-at-Risk (VaR) computed with Peaks Over Treshold model with generalized Pareto distribution.'
+
+Keywords: VaR, backtesting, block-maxima, POT, extreme-value, pareto, portfolio, estimation, financial, forecast, exceedance, risk, data visualization, graphical representation, plot, time-series
+
+See also: SFEvar_block_max_params, SFEvar_block_max_backtesting, SFEvar_pot_params, block_max, var_block_max_backtesting, var_pot, var_pot_backtesting
+
+Author: Lasse Groth, Awdesch Melzer
+
+Submitted: Mon, December 02 2013 by Awdesch Melzer
+
+Datafiles: BAYER_close_0012.dat, BMW_close_0012.dat, SIEMENS_close_0012.dat, VW_close_0012.dat, VaR0012_pot_Portf.dat
+
+Input:
+- x,y,z : vector of returns
+- v : values of Value-at-Risk
+- h : size of the window
+
+Output: 
+- p : exceedances ratio
+
+Example: 'Plot for the Value-at-Risk estimation at 0.05 level a portfolio of Bayer, BMW and Siemens stock for the time period from 2000-01-01 to 2012-12-31.'
+

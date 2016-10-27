@@ -1,0 +1,23 @@
+Name of QuantLet : SFEasian
+Published in: Statistics of Financial Markets
+Description: 'Computes Asian call option prices (asian option) using a binomial tree for assets without dividends.'
+Keywords:
+- asset
+- binomial
+- binomial-tree
+- black-scholes
+- call
+- discrete
+- european-option
+- exotic-option
+- financial
+- option
+- option-price
+- price
+- simulation
+- stock-price
+See also:
+- SFEcompound
+- SFElookback
+Author: Awdesch Melzer
+Submitted: Wed, June 10 2015 by Lukas Borke

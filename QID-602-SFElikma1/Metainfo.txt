@@ -1,0 +1,25 @@
+Name of QuantLet: SFElikma1
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the exact and conditional likelihood function of an MA(1) (moving average) process.'
+
+Keywords: discrete, graphical representation, linear, moving-average, plot, process, simulation, stationary, stochastic, stochastic-process, time-series, autoregressive, likelihood, log-likelihood, normal
+
+See also: SFEacfar1, SFEacfar2, SFEacfma2, SFEpacfar2, SFEpacfma2, SFElikgarch, SFElikarch1
+
+Author: Joanna Tomanek, Lasse Groth
+
+Submitted: Tue, June 17 2014 by Thijs Benschop
+
+Code warning:
+- 'In min(Mod(polyroot(c(1, -model$ar)))) :'
+- no non-missing arguments to min; returning Inf
+
+Input: 
+- beta : moving average coefficient
+- n : lags
+
+Example: 
+- 1: An example is produced for beta=0.5, n=10.
+- 2: An example is produced for beta=0.5, n=20.

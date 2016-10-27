@@ -1,0 +1,24 @@
+Name of QuantLet : SFElookback
+Published in: Statistics of Financial Markets
+Description: 'Computes European-style lookback call option prices (lookback option) using a binomial tree for assets without dividends.'
+Keywords:
+- asset
+- binomial
+- binomial-tree
+- black-scholes
+- call
+- discrete
+- european-option
+- exotic-option
+- financial
+- option
+- option-price
+- price
+- simulation
+- stock-price
+See also:
+- SFEasian
+- SFEcompound
+- SFEcompound
+Author: Awdesch Melzer
+Submitted: Wed, June 10 2015 by Lukas Borke

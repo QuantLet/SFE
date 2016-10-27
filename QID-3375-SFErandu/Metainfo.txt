@@ -1,0 +1,8 @@
+Name of QuantLet : SFErandu 
+Published in: Statistics of Financial Markets
+Description: 'Generates uniform random numbers using RANDU generator and produces a 3d plot of generated numbers where the hyperplains can be visible.'
+Keywords: graphical representation, hyperplain, plot, random, random-number-generation, randu, scatterplot, simulation, uniform
+See also: SFEfibonacci, SFErangen1, SFErangen1, SFErangen2, SFErangen2
+Author: Awdesch Melzer
+Submitted: Thu, July 16 2015 by quantomas
+Example: 'A plot is provided for the following parameter values: n=10000, a=2^16+3, M=2^31, seed=1298324.'

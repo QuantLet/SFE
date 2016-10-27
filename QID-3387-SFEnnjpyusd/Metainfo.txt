@@ -1,0 +1,9 @@
+Name of QuantLet : SFEnnjpyusd 
+Published in: Statistics of Financial Markets
+Description: 'Shows the forecasting of the exchange rate time series JPY/USD using RBF (radial basis function) neural networks considering 3 periods of time dependency. 80% of data is taken as training set and 20% as validation set.'
+Keywords: approximation, data visualization, exchange-rate, financial, forecast, graphical representation, neural-network, plot, rbf, time-series, visualization
+See also: SFEnnarch
+Author: Awdesch Melzer
+Submitted: Thu, July 16 2015 by quantomas
+Datafiles: XFGTHBbasket1.dat
+Example: 'Plots the real exchange rate JPY/USD (red) versus its approximation through RBF neural network (blue): training set(above) and forecasts(below).'

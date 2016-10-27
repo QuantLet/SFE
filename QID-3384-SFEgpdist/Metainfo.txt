@@ -1,0 +1,7 @@
+Name of QuantLet : SFEgpdist
+Published in: Statistics of Financial Markets
+Description: 'Generates and plots generalized standard Pareto densities for different shape parameters: gamma=0.5 (dash-dot line), gamma=0 (solid line), gamma=-0.5 (broken line).'
+Keywords: density, distribution, extreme-value, generalized-pareto-model, graphical representation, pareto, plot, simulation, standard
+See also: SFEtailGEV_pp, SFEtailGEV_qq, SFEtailGPareto_pp, SFEtailGPareto_qq, SFStailGPareto
+Author: Joanna Tomanek
+Submitted: Thu, July 16 2015 by quantomas

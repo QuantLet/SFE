@@ -1,0 +1,21 @@
+Name of QuantLet : SFEbinomv_log
+
+Published in: Statistics of Financial Markets
+
+Description: 'Compares the logarithmic density of generated binomial processes with the logarithmic density of normally distributed random variables.'
+
+Keywords: binomial, density, distribution, estimation, graphical representation, kernel, lognormal, normal, normal-distribution, plot, process, random-number-generation
+
+See also: SFEBinomp, SFEWienerProcess, SFEbinomv, SFEbinomv
+
+Author: Cindy Lamm, Ying Chen, Christian M. Hafner
+
+Submitted: Sat, June 13 2015 by Lukas Borke
+
+Input:
+- n : number of steps
+- k : number of paths
+- p : probability of up movement
+
+Example: 'User inputs the parameters n, k, p, then the logarithmic density of generated binomial processes with the log-normal density is plotted.'
+

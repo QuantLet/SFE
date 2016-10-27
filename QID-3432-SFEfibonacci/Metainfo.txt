@@ -1,0 +1,8 @@
+Name of QuantLet : SFEfibonacci 
+Published in: Statistics of Financial Markets
+Description: 'Generates uniform random numbers using Fibonacci Algorithm and produces a plot of generated numbers.'
+Keywords: Fibonacci, graphical representation, plot, random, random-number-generation, scatterplot, simulation, uniform
+See also: SFErandu, SFErangen1, SFErangen2
+Author: Wolfgang K. Haerdle
+Submitted: Wed, July 22 2015 by quantomas
+Example: 'A plot is generated for the following parameter values: a=1366, b=150889, M=714025, n=10000.'

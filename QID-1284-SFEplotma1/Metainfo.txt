@@ -1,0 +1,23 @@
+Name of QuantLet: SFEplotma1
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots two realizations of an MA(1) (moving average) process with MA coefficient = beta, random normal innovations and n=n1 (above) and n=n2 (below).'
+
+Keywords: moving-average, stationary, linear, discrete, simulation, time-series, process, stochastic-process, stochastic, plot, graphical representation
+
+See also: SFEacfar2, SFEacfma1, SFEacfma2 
+
+Author: Joanna Tomanek, Lasse Groth
+
+Submitted: Wed, September 14 2011 by Awdesch Melzer
+
+Input: 
+- n1, n2 : lags
+- beta : moving average coefficient 
+
+Example: 'An example is produced for beta=0.5, n1=10 and n2=20.' 
+
+Code warning:
+- 1: 'In min(Mod(polyroot(c(1, -model$ar)))) :'
+- 2: no non-missing arguments to min; returning Inf

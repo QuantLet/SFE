@@ -1,0 +1,25 @@
+Name of QuantLet : SFEDaxReturnDistribution
+Published in: Statistics of Financial Markets
+Description: 'Compares a kernel estimation of the density of DAX returns distribution with a kernel estimation of a normal distribution with the same mean and variance. The data is taken from the Xetra-DAX 1999.'
+Keywords:
+- data visualization
+- dax
+- density
+- distribution
+- estimation
+- financial
+- graphical representation
+- kernel
+- log-returns
+- normal
+- normal-distribution
+- plot
+- random-number-generation
+- returns
+See also: MMSTATdistribution_normal
+Author: Joanna Tomanek
+Author[Matlab]: Awdesch Melzer
+Submitted: Fri, June 12 2015 by Lukas Borke
+Submitted[Matlab]: Wed, April 24 2013 by Maria Osipenko
+Datafiles: dax99.dat
+Example: DAX Density (blue) versus Normal Density (black)

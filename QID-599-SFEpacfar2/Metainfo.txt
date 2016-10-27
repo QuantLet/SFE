@@ -1,0 +1,24 @@
+Name of QuantLet: SFEpacfar2
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the partial autocorrelation function of an AR(2) (autoregressive) process.'
+
+Keywords: acf, partial, PACF, autocorrelation, autoregressive, discrete, graphical representation, linear, plot, process, simulation, stationary, stochastic, stochastic-process, time-series
+
+See also: SFEacfar1, SFEacfar2, SFEacfma1, SFEacfma2, SFEpacfma2, SFEfgnacf
+
+Author: Joanna Tomanek
+
+Submitted: Fri, June 13 2014 by Felix Jung
+
+Input: 
+- lag : lag value
+- a1 : alpha_1
+- a2 : alpha_2
+
+Example: 
+- 1: a1=0.5, a2=0.4 and lag=30
+- 2: a1=0.5, a2=-0.4 and lag=30
+- 3: a1=-0.5, a2=0.4 and lag=30
+- 4: a1=-0.5, a2=-0.4 and lag=30

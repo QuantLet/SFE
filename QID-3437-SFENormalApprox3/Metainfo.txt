@@ -1,0 +1,18 @@
+Name of QuantLet : SFENormalApprox3 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Computes numerical approximation to a normal cumulative distribution function (cdf) using method c).'
+
+Keywords: approximation, cdf, distribution, graphical representation, normal, normal-distribution, numeric, plot
+
+See also: SFENormalApprox1, SFENormalApprox2, SFENormalApprox4
+
+Author: Wolfgang K. Haerdle
+
+Submitted: Fri, July 24 2015 by quantomas
+
+Output: 
+- phi : approximation of Normal cdf at different values
+
+Example: 'Estimated normal cdf at that points 1:0.1:2 are given: [0.8413 0.8643 0.8849 0.9032 0.9192 0.9332 0.9452 0.9554 0.9641 0.9713 0.9772].'

@@ -1,0 +1,8 @@
+Name of QuantLet : SFEclose 
+Published in: Statistics of Financial Markets
+Description: 'Plots the closing stock prices of 4 DAX companies: Bayer (black), BMW (red), Siemens (blue) and Volkswagen (green) for the period 1 January 2002 - 31 December 2012, on daily basis.'
+Keywords: asset, data visualization, dax, financial, graphical representation, plot, stock-price, visualization
+See also: SFEportfolio
+Author: Zografia Anastasiadou, Awdesch Melzer
+Submitted: Sat, July 18 2015 by quantomas
+Datafiles: BAYER_close_0012.dat, BMW_close_0012.dat, SIEMENS_close_0012.dat, VW_close_0012.dat

@@ -1,0 +1,14 @@
+Name of QuantLet : SFEgaussCop
+Published in: Statistics of Financial Markets
+Description: 'Plots density, distribution, density contour and distribution contour of a Gaussian (normal) copula with 2 and 3 dimensions and parameter=0.5.'
+Keywords:
+- contour
+- copula
+- density
+- distribution
+- gaussian
+- graphical representation
+- normal
+- plot
+Author: Ostap Okhrin
+Submitted: Sat, July 25 2015 by quantomas

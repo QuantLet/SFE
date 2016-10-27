@@ -1,0 +1,6 @@
+Name of QuantLet : SFEhillquantile 
+Published in: Statistics of Financial Markets
+Description: 'Estimates the Hill-quantile value given a Hill-estimation of gamma.'
+Keywords: VaR, distribution, estimation, extreme-value, forecast, generalized-pareto-model, hill-estimator, pareto, quantile, risk, standard
+Author: Joanna Tomanek
+Submitted: Thu, July 16 2015 by quantomas

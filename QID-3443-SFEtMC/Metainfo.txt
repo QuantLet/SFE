@@ -1,0 +1,21 @@
+Name of QuantLet : SFEtMC
+Published in: Statistics of Financial Markets
+Description: 'Produces scatterplots of Monte Carlo sample (5000 realisations) of pseudo random variable with uniform (top) and marginal distributions (bottom). Dependence structure is given by t-copula with df=3 and parameter=0.5.'
+Keywords:
+- copula
+- distribution
+- graphical representation
+- monte-carlo
+- plot
+- random
+- scatterplot
+- t-distribution
+- uniform
+See also:
+- SFEclaytonMC
+- SFEplotCop
+- SFEstaticCop
+- SFScontourgumbel
+Author: Ostap Okhrin
+Submitted: Sat, July 25 2015 by quantomas
+Example: 'Dependence structure is given by t-copula with nu = 3 and psi(i,j) = 0.5, i, j = 1, 2, 3, i ≠ j.'

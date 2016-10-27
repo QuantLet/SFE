@@ -1,0 +1,19 @@
+Name of QuantLet: SFEgplm
+
+Published in: Statistics of Financial Markets
+
+Description: 'Estimates a GPLM for the Credit data using profile likelihood.'
+
+Keywords: graphical representation, data visualization, estimation, GAM, GPLM, General Partial Linear Model, semiparametric model, plot, scatterplot, financial
+
+See also: SPMlogit, SPMlogitkredit
+
+Author: Awdesch Melzer
+
+Submitted: Wed, August 07 2013 by Awdesch Melzer
+
+Datafiles: kredit.dat
+
+Example: 
+- 1: 'The scatter plot of the transferred variables: level of credit and age of the customers.'
+- 2: 'The estimated function with respect to level of credit and age of the customers.'

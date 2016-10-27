@@ -1,0 +1,23 @@
+Name of QuantLet: SFEvar_block_max_params
+
+Published in: Statistics of Financial Markets
+
+Description: 'Provides parameters estimated for calculating Value-at-Risk (VaR) with Block Maxima model.'
+
+Keywords: VaR, parameter, block-maxima, portfolio, estimation, financial, forecast, risk, data visualization, graphical representation, plot, time-series
+
+See also: SFEvar_block_max_backtesting, SFEvar_pot_backtesting, SFEvar_pot_params, block_max, var_block_max_backtesting, var_pot, var_pot_backtesting
+
+Author: Lasse Groth, Awdesch Melzer
+
+Submitted: Fri, November 29 2013 by Awdesch Melzer
+
+Datafiles: alpha0012_bMax_Portf.dat, beta0012_bMax_Portf.dat, kappa0012_bMax_Portf.dat
+
+Input: 
+- b : location parameter
+- k : shape parameter
+- a : scale parameter
+
+Example: 'Plot of the parameters estimated for calculating Value-at-Risk with Block Maxima model.'
+

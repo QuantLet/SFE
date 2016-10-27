@@ -1,0 +1,23 @@
+Name of QuantLet: SFEwienerdens
+
+Published in: Statistics of Financial Markets
+
+Description: 'Simulates a Wiener process.'
+
+Keywords: brownian-motion, continuous, graphical representation, plot, process, simulation, stochastic, stochastic-process, time-series, wiener-process, Markov, density
+
+See also: SFEWienerProcess, SFSwiener1, SFSwiener2, SFSwiener3
+
+Author: Anton Andriyashin, Roman Timofeev
+
+Submitted: Fri, June 13 2014 by Felix Jung
+
+Input: 
+- dt : delta t
+- c : constant
+- a : left limit
+- b : right limit
+- s : time moment
+- x0 : initial value of the process
+
+Example: 'For the values: [dt, c, s]= [0.01, 2, 150], [a, b, x0] = [90, 110, 50] a plot of the Wiener process simulation is produced.'

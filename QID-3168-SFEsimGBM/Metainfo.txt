@@ -1,0 +1,26 @@
+Name of QuantLet : SFEsimGBM
+Published in: Statistics of Financial Markets
+Description: 'Simulates and plots a path of a geometric Brownian motion (GBM) using 4 different methods: direct integration, Euler scheme, Milstein scheme, second order Milstein scheme.'
+Keywords:
+- Euler
+- brownian-motion
+- direct integration
+- discrete
+- geometric-brownian-motion
+- graphical representation
+- normal-distribution
+- plot
+- process
+- random-number-generation
+- simulation
+- stochastic
+- stochastic-process
+- wiener-process
+See also:
+- SFEGBMProcess
+- SFEsimCIR
+Author:
+- Rafal Weron
+- Awdesch Melzer
+Submitted: Mon, June 08 2015 by Lukas Borke
+Example: Plots 5 paths of a geometric Brownian motion using the Euler scheme.

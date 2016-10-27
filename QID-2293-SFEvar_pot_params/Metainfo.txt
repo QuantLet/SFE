@@ -1,0 +1,23 @@
+Name of QuantLet: SFEvar_pot_params
+
+Published in: Statistics of Financial Markets
+
+Description: 'Provides parameters estimated for calculating Value-at-Risk (VaR) with Peaks Over Treshold model.'
+
+Keywords: VaR, parameter, POT, extreme-value, portfolio, estimation, financial, forecast, risk, data visualization, graphical representation, plot, time-series
+
+See also: SFEvar_block_max_backtesting, SFEvar_pot_backtesting, SFEvar_block_max_params, block_max, var_block_max_backtesting, var_pot, var_pot_backtesting
+
+Author: Lasse Groth, Awdesch Melzer
+
+Submitted: Sat, January 25 2014 by Lukas Borke
+
+Datafiles: beta0012_pot_Portf.dat, ksi0012_pot_Portf.dat, u0012_pot_Portf.dat
+
+Input: 
+- beta : scale parameter
+- ksi : shape parameter
+- u : threshold
+
+Example: 'Plot of the parameters estimated for calculating Value-at-Risk with Peaks Over Treshold model.'
+

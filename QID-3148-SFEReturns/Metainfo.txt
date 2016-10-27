@@ -1,0 +1,27 @@
+Name of QuantLet : SFEReturns
+Published in: Statistics of Financial Markets
+Description: 'Computes the first order auto correlation of the returns, squared returns and absolute returns as well as the skewness, kurtosis and Jarque-Bera test statistic for German blue chips, 1974 - 1996.'
+Keywords:
+- autocorrelation
+- blue chips
+- correlation
+- dax
+- descriptive-statistics
+- financial
+- jarque-bera-test
+- kurtosis
+- log-returns
+- returns
+- skewness
+- statistics
+- test
+Author: Joanna Tomanek
+Author[Matlab]: Andrija Mihoci
+Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[Matlab]: Mon, May 02 2016 by Meng Jou Lu
+Input[Matlab]:
+- Params: a, b, sigma
+- X: yields of the US 3 month treasury bill
+Output[Matlab]: Value of the log-likelihood function in Vasicek model.
+Datafiles: sfm_pri.dat
+Datafiles[Matlab]: FTSE_DAX.dat

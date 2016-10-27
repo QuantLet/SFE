@@ -1,0 +1,20 @@
+Name of QuantLet : SFEevt2 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Shows the normal probability plot (PP Plot) of the pseudo random variables with extreme value distributions: Weibull, Frechet and Gumbel.'
+
+Keywords: Frechet, GEV, Weibull, distribution, edf, extreme-value, gumbel, normal, normal-distribution, plot, pp-plot, random, random-number-generation
+
+See also: SFEevt1, SFEevt3
+
+Author: Wolfgang K. Haerdle
+
+Submitted: Fri, June 05 2015 by Lukas Borke
+
+Input: 
+- n : number of observations
+
+Output: 'Normal plot of the pseudo random variables with Weibull, Frechet and Gumbel distributions.'
+
+Example: 'User inputs the number of observations like 100, then 3 PP Plots of the random distributions are given via the interactive selection menu. The PP line shows the difference of the distributions.'

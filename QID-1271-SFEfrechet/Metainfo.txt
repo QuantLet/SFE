@@ -1,0 +1,14 @@
+Name of QuantLet: SFEfrechet
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots distribution and distribution contour of Frechet-Hoeffding upper bound, lower bound and product (independence) copula into a grid.'
+
+Keywords: copula, distribution, plot, graphical representation, 3D, Frechet, cdf, contour
+
+See also: SFEclaytonMC, SFEstaticCop, SFEtCop, SFEVaRcopulaSIM2ptv, SFEArchCopDensity, BCS_ClaytonMC, SFEplotCop, SFEgaussCop, SFEresDens, SFEtMC, SFScontourgumbel, SFEgaussCop
+
+Author: Ostap Okhrin
+
+Submitted: Mon, November 10 2014 by Felix Jung
+

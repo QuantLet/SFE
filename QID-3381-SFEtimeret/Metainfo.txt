@@ -1,0 +1,26 @@
+Name of QuantLet : SFEtimeret
+Published in: Statistics of Financial Markets
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and plots the time series of the DAX and FTSE 100 daily returns from 1998 to 2007.'
+Keywords:
+- asset
+- data visualization
+- dax
+- descriptive-statistics
+- financial
+- ftse100
+- graphical representation
+- index
+- plot
+- returns
+- stock-price
+- time-series
+See also:
+- SFElshill
+- SFEmvol01
+- SFEmvol03
+- SFEtail
+- SFEvolgarchest
+- SFEvolnonparest
+Author: Andrija Mihoci
+Submitted: Thu, July 16 2015 by quantomas
+Datafiles: FSE_LSE.dat

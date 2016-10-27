@@ -1,0 +1,10 @@
+Name of QuantLet : SFEerrorsurf
+Published in: Statistics of Financial Markets
+Description: 'Plots the error surface of Q(w) with sigmoid function and threshold function as activation function.'
+Keywords: error-surface, graphical representation, learning-rule, neural-network, optimization, plot, sigmoid, threshold
+See also: SFEdescgrad
+Author: Joanna Tomanek, Awdesch Melzer
+Submitted: Thu, July 16 2015 by quantomas
+Example:
+- 'Error surface of Q(w) with sigmoid function as activation function.'
+- 'Error surface of Q(w) with threshold function as activation function.'

@@ -1,0 +1,23 @@
+Name of QuantLet : SFEsimCIR 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Simulates and plots a path of a Cox-Ingersoll-Ross (CIR) process.'
+
+Keywords: cir, graphical representation, interest-rate, plot, process, simulation, stochastic, stochastic-process
+
+See also: SFEscomCIR, SFEscomCIR, SFEsimCIR2
+
+Author: Awdesch Melzer
+
+Submitted: Fri, July 17 2015 by quantomas
+
+Input:
+- n : Number of Observations
+- beta : Parameter
+- gamma : Parameter
+- m : Mean
+
+Output: Plot of a simulated CIR process
+
+Example: 'User inputs the parameters [number of observations, beta, gamma, mean] like [100, 0.1, 0.01, 1], then plot of a simulated CIR process is given.'

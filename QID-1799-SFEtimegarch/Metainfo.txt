@@ -1,0 +1,13 @@
+Name of QuantLet: SFETimegarch
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the time series of a GARCH(1,1) process.'
+
+Keywords: simulation, stochastic-process, process, time-series, plot, graphical representation, estimation, garch, autoregressive, process, stochastic, stochastic-process, volatility
+
+See also: SFEtimewn, SFEtimedax
+
+Author: Joanna Tomanek
+
+Submitted: Tue, June 17 2014 by Thijs Benschop

@@ -1,0 +1,27 @@
+Name of QuantLet : SFEcomplogreturns 
+Published in: Statistics of Financial Markets
+Description: 'Plots daily log returns of FTSE 100 and DAX stocks (Bayer, Siemens and Volkswagen), for the period 3 January 2000 - 30 October 2006.'
+Keywords:
+- asset
+- data visualization
+- dax
+- descriptive-statistics
+- financial
+- ftse100
+- graphical representation
+- index
+- log-returns
+- plot
+- returns
+- stock-price
+- time-series
+See also:
+- SFEfdescStat
+- SFEfdescStat
+Author: Awdesch Melzer
+Submitted: Wed, June 10 2015 by Lukas Borke
+Datafiles:
+- BAYERlevel(03.01.00-30.10.06).txt
+- FTSElevel(03.01.00-30.10.06).txt
+- SIEMENSlevel(03.01.00-30.10.06).txt
+- VWlevel(03.01.00-30.10.06).txt

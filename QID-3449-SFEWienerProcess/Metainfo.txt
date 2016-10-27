@@ -1,0 +1,18 @@
+Name of QuantLet : SFEWienerProcess
+
+Published in : Statistics of Financial Markets
+
+Description : Generates and plots 5 paths of a Wiener process with c=1, delta_t=0.5.
+
+Keywords: brownian-motion, continuous, graphical representation, plot, process, simulation, stochastic, stochastic-process, time-series, wiener-process
+
+See also: SFEbinomv, SFEbinomv_log
+
+Author: Cindy Lamm, Karel Komorád
+
+Submitted: Sat, July 25 2015 by quantomas
+
+Input:
+- dt : delta t
+- c : constant c
+- k : number of trajectories

@@ -1,0 +1,15 @@
+Name of QuantLet: SFEtailGEV_qq
+
+Published in: Statistics of Financial Markets
+
+Description: 'Fits a Generalized Extreme Value distribution to the negative log-returns of a portfolio (Bayer, BMW, Siemens, VW) for the time period from 2000-01-01 to 2012-12-31 and produces a Q-Q plot.'
+
+Keywords: asset, data visualization, dax, financial, graphical representation, plot, portfolio, qq-plot, returns, log-returns, stock-price, GEV, pareto, extreme-value
+
+See also: SFEportfolio, SFEportlogreturns, SFEdenport, SFEclose, SFEtailGEV_pp, SFEtailGPareto_pp, SFEtailGPareto_qq
+
+Author: Lasse Groth, Awdesch Melzer
+
+Submitted: Fri, November 29 2013 by Awdesch Melzer
+
+Datafiles: BAYER_close_0012.dat, BMW_close_0012.dat, SIEMENS_close_0012.dat, VW_close_0012.dat

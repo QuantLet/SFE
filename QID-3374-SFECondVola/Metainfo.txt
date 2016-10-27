@@ -1,0 +1,45 @@
+Name of QuantLet : SFECondVola
+Published in: Statistics of Financial Markets
+Description: 'Plots conditional volatility forecasts for log-returns of FTSE and DAX stocks (Bayer, Siemens and Volkswagen)
+based on the Fractional Integrated Asymmetric Power ARCH (FIAPARCH, blue) model and the Hyperbolic-GARCH (HYGARCH, red) model.'
+
+Keywords:
+- arch
+- asset
+- data visualization
+- dax
+- descriptive-statistics
+- financial
+- forecast
+- ftse100
+- garch
+- graphical representation
+- index
+- log-returns
+- plot
+- process
+- returns
+- simulation
+- stochastic
+- stochastic-process
+- stock-price
+- time-series
+- volatility
+
+Author: Awdesch Melzer
+
+Author[Matlab]: Julius Mungo
+
+Submitted: Thu, July 16 2015 by quantomas
+
+Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
+
+Datafiles:
+- ConVola(FIAPARCH)bayer.txt
+- ConVola(FIAPARCH)ftse.txt
+- ConVola(FIAPARCH)siemens.txt
+- ConVola(FIAPARCH)vw.txt
+- ConVola(HYGARCH)bayer.txt
+- ConVola(HYGARCH)ftse.txt
+- ConVola(HYGARCH)siemens.txt
+- ConVola(HYGARCH)vw.txt

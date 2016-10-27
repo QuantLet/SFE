@@ -1,0 +1,7 @@
+Name of QuantLet : SFEsimOU 
+Published in: Statistics of Financial Markets
+Description: 'Simulates and plots a path of a Ornstein-Uhlenbeck (OU) process with beta=0.1, gamma=0.01 around mean=1.'
+Keywords: gaussian, graphical representation, ornstein-uhlenbeck, plot, process, simulation, stochastic, stochastic-process, wiener-process
+Author: Awdesch Melzer, Torsten Kleinow
+Submitted: Fri, July 17 2015 by quantomas
+Example: 'User inputs the parameters [number of observations, beta, gamma, mean] like [100, 0.1, 0.01, 1], then plot of a simulated Ornstein-Uhlenbeck process is given.'

@@ -1,0 +1,21 @@
+Name of QuantLet : SFEgarchest
+
+Published in: Statistics of Financial Markets
+
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and estimates various GARCH models for the DAX and FTSE 100 daily return processes from 1998 to 2007.'
+
+Keywords: asset, data visualization, dax, descriptive-statistics, estimation, financial, ftse100, garch, graphical representation, index, model, parameter, plot, returns, stock-price, time-series
+
+See also: SFEvolgarchest
+
+Author: Andrija Mihoci, Awdesch Melzer
+
+Submitted: Fri, July 24 2015 by quantomas
+
+Datafiles: FSE_LSE.dat
+
+Output:
+- P : matrix of estimated coefficients
+- E : matrix of standard errors
+- T : matrix of t-statistics of estimated coefficients
+- Pvalues : matrix of Pvalues

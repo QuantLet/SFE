@@ -1,0 +1,7 @@
+Name of QuantLet : SFEtimedax 
+Published in: Statistics of Financial Markets
+Description: 'Plots the time series of daily DAFOX returns with a window from 1993 to 1996.'
+Keywords: dafox, data visualization, dax, financial, graphical representation, log-returns, plot, returns, time-series, visualization
+Author: Joanna Tomanek
+Submitted: Wed, July 22 2015 by quantomas
+Datafiles: dafox.dat

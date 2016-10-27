@@ -1,0 +1,21 @@
+Name of QuantLet : SFEacfma1 
+
+Published in: Statistics of Financial Markets
+
+Description: Plots the autocorrelation function of an MA(1) (moving average) process.
+
+Keywords: acf, autocorrelation, discrete, graphical representation, linear, moving-average, plot, process, simulation, stationary, stochastic, stochastic-process, time-series
+
+See also: SFEacfar1, SFEacfar2, SFEacfma2, SFElikma1, SFEpacfar2, SFEpacfma2, SFEplotma1
+
+Author: Joanna Tomanek
+
+Submitted: Fri, July 24 2015 by quantomas
+
+Input:
+- lag : lag value
+- b : beta_1
+
+Example:
+- 1: b = 0.5, lag = 30.
+- 2: b = -0.5, lag = 30.

@@ -1,0 +1,22 @@
+Name of QuantLet : SFEsimVasi
+
+Published in: Statistics of Financial Markets
+
+Description: 'Simulates and plots a Vasicek process for the instantaneous short term interest rate.'
+
+Keywords: graphical representation, interest-rate, plot, process, short-rate, simulation, time-series, vasicek
+
+See also: SFEVasiml, SFEscomCIR
+
+Author: Li Sun, Awdesch Melzer
+
+Submitted: Sat, July 25 2015 by quantomas
+
+Input:
+- a : adjustment factor
+- b : long term average interest rate
+- sigma : instantaneous standard deviation
+- r0 : instantaneous forward rate
+- T : time period
+
+Example: An example is produced for a=0.161, b=0.014, sigma=0.009, r0=0.01, T=250.

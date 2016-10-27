@@ -1,0 +1,14 @@
+Name of QuantLet: SFEtCop
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots density, distribution, density contour and distribution contour of a t-copula with 2 dimensions, df=3 and parameter=0.2.'
+
+Keywords: copula, distribution, t-distribution, plot, graphical representation, pdf, cdf, density, contour, clayton, Frank, gaussian, gumbel
+
+See also: SFEclaytonMC, SFEstaticCop, SFEplotCop, SFEVaRcopulaSIM2ptv, SFEArchCopDensity, BCS_ClaytonMC, SFEfrechet, SFEgaussCop, SFEresDens, SFEtMC, SFScontourgumbel, SFEgaussCop
+
+Author: Ostap Okhrin
+
+Submitted: Mon, November 10 2014 by Felix Jung
+

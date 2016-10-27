@@ -1,0 +1,20 @@
+Name of QuantLet: SFEvolgarchest
+
+Published in: Statistics of Financial Markets
+
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and estimates the volatility of the DAX and FTSE 100 daily return processes from 1998 to 2007 using a GARCH(1,1) model.'
+
+Keywords: data visualization, graphical representation, plot, financial, asset, stock-price, returns, time-series, dax, ftse100, index, descriptive-statistics, volatility, garch, index
+
+See also: SFEtimeret, SFEvolnonparest, SFEmvol01, SFEmvol03, SFElshill, SFEtail
+
+Author: Andrija Mihoci
+
+Submitted: Thu, December 15 2011 by Dedy Dwi Prastyo
+
+Datafiles: FSE_LSE.dat
+
+Example: 'Plot of time series of estimated next-day volatility for DAX and FTSE 100 returns.'
+
+Code warning: 
+- '1: In sqrt(diag(fit$cvar)) : NaNs produced'

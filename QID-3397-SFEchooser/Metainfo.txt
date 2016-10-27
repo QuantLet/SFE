@@ -1,0 +1,7 @@
+Name of QuantLet : SFEchooser
+Published in: Statistics of Financial Markets
+Description: 'Computes European chooser option prices using a binomial tree for assets without dividends.'
+Keywords: black-scholes, call, compound, european-option, exotic-option, financial, option, option-price, put
+Author: Awdesch Melzer
+Submitted: Sat, July 18 2015 by quantomas
+Output: 'European call, put and chooser option price development and their prices at time t_0'

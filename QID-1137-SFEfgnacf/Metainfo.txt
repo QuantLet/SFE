@@ -1,0 +1,13 @@
+Name of QuantLet: SFEfgnacf
+
+Published in: Statistics of Financial Markets
+
+Description: 'Produces plots and autocorrelation functions of fractional Gaussian noise with 2 different Hurst parameters.'
+
+Keywords: acf, autocorrelation, discrete, graphical representation, plot, process, simulation, stationary, stochastic, stochastic-process, time-series, fractional gaussian noise, fractional-brownian-motion, hurst-exponent
+
+See also: SFEacfar1, SFEacfar2, SFEacfma1, SFEacfma2, SFEpacfar2, SFEpacfma2
+
+Author: Piotr Majer
+
+Submitted: Fri, June 13 2014 by Philipp Gschoepf

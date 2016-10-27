@@ -1,0 +1,33 @@
+Name of QuantLet : SFEmvol03
+Published in: Statistics of Financial Markets
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE), estimates parameters of a multivariate GARCH model and plots the estimated variance and covariance processes for the DAX and FTSE 100 daily return processes from 1998 to 2007.'
+Keywords:
+- asset
+- covariance
+- data visualization
+- dax
+- descriptive-statistics
+- financial
+- ftse100
+- garch
+- graphical representation
+- index
+- plot
+- returns
+- simulation
+- stock-price
+- time-series
+- variance
+See also:
+- SFElshill
+- SFEmvol01
+- SFEtail
+- SFEtimeret
+- SFEvolgarchest
+- SFEvolnonparest
+Author:
+- Andrija Mihoci
+- Awdesch Melzer
+Submitted: Thu, July 16 2015 by quantomas
+Datafiles: FSE_LSE.dat
+Example: 'Plots of the estimated variance and covariance processes with a bivariate (blue) and two univariate (red) GARCH processes.'

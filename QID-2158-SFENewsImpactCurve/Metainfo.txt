@@ -1,0 +1,23 @@
+Name of QuantLet: SFENewsImpactCurve
+
+Published in: Statistics of Financial Markets
+
+Description: 'Computes a local linear estimate of the News Impact Curve for the DAX return. The model is y(t)=f(y(t-1)).'
+
+Keywords: conditional variance, local polynomial, dax, returns, asset, financial, estimation, linear, data visualization, graphical representation, plot
+
+See also: kern
+
+Author: Awdesch Melzer
+
+Author[Matlab]: Awdesch Melzer
+
+Submitted: Wed, April 24 2013 by Maria Osipenko
+
+Submitted[Matlab]: Wed, April 24 2013 by Maria Osipenko
+
+Datafiles: dax99.dat
+
+Example: 'Plot of conditional variance f^2.'
+
+ 

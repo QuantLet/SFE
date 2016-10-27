@@ -1,0 +1,17 @@
+Name of QuantLet: SFEarfima
+
+Published in: Statistics of Financial Markets
+
+Description: 'Produces plots of the fractional integrated ARMA - ARFIMA(p,d,q) models.'
+
+Keywords: arfima, arma, autoregressive, moving-average,  linear, discrete, time-series, process, stochastic-process, stochastic, simulation, graphical representation, plot
+
+Author: Piotr Majer
+
+Submitted: Tue, July 05 2011 by Maria Osipenko
+
+Example: Plots of ARFIMA(AR,MA,d) (top) and ARFIMA(AR,MA,-d) (bottom) models.
+
+Code warning: 
+- 1: 'In fracdiff.sim(N, AR, MA, d1) :'
+- 2: 'ar-part of fracdiff model is not stationary!!'

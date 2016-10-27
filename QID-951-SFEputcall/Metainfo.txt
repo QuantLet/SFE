@@ -1,0 +1,13 @@
+Name of QuantLet: SFEputcall
+
+Published in: Statistics of Financial Markets
+
+Description: 'Calculates the price of a European call option with the help of the "Put-Call-Parity".'
+
+Keywords: asset, black-scholes, call, put, european-option, financial, option, option-price, put-call-parity
+
+Author: Alexander Ristig
+
+Submitted: Tue, November 25 2014 by Felix Jung
+
+Example: 'For given parameters [Strike Price, Spot Price, Interest Rate] like [800, 750, 0.1], and [Remaining Time, Price of European Put, Value of all Earnings and Costs Related to Underlying] like [0.8, 5.4, 2] the price of the European call option is calculated.'

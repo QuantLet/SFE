@@ -1,0 +1,21 @@
+Name of QuantLet: SFEcir
+
+Published in: Statistics of Financial Markets
+
+Description: 'Displays the yield curve for given parameters under the model of Cox-Ingersoll-Ross (CIR).'
+
+Keywords: 'cir, graphical representation, interest-rate, plot, process, short-rate, simulation, time-series, yield, term structure'
+
+See also: SFECIRmle, SFEscomCIR, SFEsimCIR, SFEcirpricing, SFEsimVasi
+
+Author: Joanna Tomanek, Christian M. Hafner
+
+Author[Matlab]: Li Sun
+
+Submitted: Fri, June 13 2014 by Felix Jung
+
+Input: 'Parameters of the CIR model (k,mu,sigma), time horizon, today''s short rate.'
+
+Output: Plot of the CIR term structure
+
+Example[Matlab]: '[k, mu, sigma, n, sr] = [0.1,0.1,0.1,50,0.05].' 

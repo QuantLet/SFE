@@ -1,0 +1,7 @@
+Name of QuantLet : SFEfbmplot 
+Published in: Statistics of Financial Markets
+Description: 'Plots the fractional Brownian motion with Hurst exponent H1=0.2 (top) and H2=0.8 (bottom).'
+Keywords: brownian-motion, fractional-brownian-motion, graphical representation, hurst-exponent, plot, process, simulation, stochastic, stochastic-process, time-series, wiener-process
+See also: SFSbb, SFSbb
+Author: Piotr Majer
+Submitted: Thu, July 16 2015 by quantomas

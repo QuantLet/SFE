@@ -1,0 +1,8 @@
+Name of QuantLet : SFEDeltahedgingLogic
+Published in: Statistics of Financial Markets
+Description: 'Simulates 2 stock price paths, including the Black-Scholes Delta depending on n=50 time steps and the stock price S1/S2 for given exercise price K=100, initial stock price S0=98, volatility sig=0.2, interest rate r=0.05, and the time interval (T-t0) = 20 weeks. In the second part it plots delta dependencies on steps and stock prices.'
+Keywords: black-scholes, brownian-motion, delta, dependence, financial, geometric-brownian-motion, graphical representation, hedging, plot, simulation, stock-price, wiener-process
+See also: SFEDeltaHedging, SFEDeltaHedging, SFEDeltahedgingdepend, SFSdeltahedging
+Author: Juliane Tomzik, Gagandeep Singh, Christoph Jährling
+Submitted: Thu, June 11 2015 by Lukas Borke
+Example: Plots of 2 stock price paths and Delta dependencies on steps and stock prices.

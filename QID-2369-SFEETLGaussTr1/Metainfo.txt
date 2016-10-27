@@ -1,0 +1,19 @@
+Name of QuantLet: SFEETLGaussTr1
+
+Published in: Statistics of Financial Markets
+
+Description: 'Calculates expected loss of the equity tranche calculated using the one factor Gaussian model with one-year default probability computed from the iTraxx index Series 8 with 5 years maturity on 20071022.'
+
+Keywords: CDO, Credit Risk, Equity tranche, Expected loss,normal, numerical integration, gaussian, asset, financial, plot, graphical representation
+
+See also: BaseCorrGaussModelCDO, CompCorrGaussModelCDO, SFEPortfolioLossDensity, SFEcompCorr, SFEgaussCop, lowerTrLossGauss, SFEbaseCorr, ETL
+
+Author: Awdesch Melzer
+
+Author[Matlab]: Barbara Choros
+
+Submitted: Wed, April 23 2014 by Awdesch Melzer
+
+Submitted[Matlab]: Fri, November 22 2013 by Awdesch Melzer
+
+Example: Plot of expected loss of the equity tranche.

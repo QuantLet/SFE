@@ -1,0 +1,24 @@
+Name of QuantLet : SFEacfar2 
+
+Published in: Statistics of Financial Markets
+
+Description: Plots the autocorrelation function of an AR(2) (autoregressive) process.
+
+Keywords: acf, autocorrelation, autoregressive, discrete, graphical representation, linear, plot, process, simulation, stationary, stochastic, stochastic-process, time-series
+
+See also: SFEacfar1, SFEacfma1, SFEacfma2, SFElikma1, SFEpacfar2, SFEpacfma2, SFEplotma1
+
+Author: Joanna Tomanek
+
+Submitted: Fri, July 24 2015 by quantomas
+
+Input:
+- lag : lag value
+- a1 : alpha_1
+- a2 : alpha_2
+
+Example:
+- 1: a1=0.5, a2=0.4 and lag=30
+- 2: a1=0.5, a2=-0.4 and lag=30.
+- 3: a1=-0.5, a2=0.4 and lag=30.
+- 4: a1=-0.5, a2=-0.4 and lag=30.

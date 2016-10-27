@@ -1,0 +1,19 @@
+Name of QuantLet: SFEbsprices
+
+Published in: Statistics of Financial Markets
+
+Description: 'Calculates and plots BS price as a function of S, K, r, tau, sigma and the payoff at maturity.'
+
+Keywords: asset, black-scholes, call, put, option, option-price, european-option, financial, plot, graphical representation
+
+See also: SFEBSCopt1, SFEBSCopt2, SFEbsbm, blsprice
+
+Author: Szymon Borak, Elisabeth Bommes
+
+Author[Matlab]: Szymon Borak, Awdesch Melzer
+
+Submitted: Tue, June 17 2014 by Thijs Benschop
+
+Example: 
+- 1: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau = 0.6 and sigma = 0.15.'
+- 2: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau2 = 0.03 and sigma2 = 0.3.'

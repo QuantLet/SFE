@@ -1,0 +1,33 @@
+Name of QuantLet: SFEbitreeCDiv
+
+Published in: Statistics of Financial Markets
+
+Description: 'Computes European/American option prices using a binomial tree for assets with/without continuous dividends.'
+
+Keywords: 'binomial, tree, asset, call, put, option, option-price, european-option, dividends, financial, black-scholes'
+
+See also: SFEbitreeFDiv, SFEbitreePDiv, SFSbitreeNDiv
+
+Author: Awdesch Melzer, Ying Chen
+
+Author[Matlab]: Ying Chen
+
+Submitted: Tue, June 17 2014 by Thijs Benschop
+
+Input: 
+- i : Interest Rate
+- type : 0 is American, 1 is European
+- n : Number of Intervals
+- k : Exercise Price
+- t : Time to Expiration
+- s0 : Stock Price
+- sig : Volatility
+- div : Contionous Dividend in Percentage
+- flag : 1 is call, 0 is Put
+
+Output: binomial trees and price of option
+
+Example: 'User inputs parameters [s0, k, i, sig, t, n, type] like [230, 210, 0.04545, 0.25, 0.5, 5 ,0], [option (1 for call, 0 for put), continuous dividend in percentage (0 for no dividend)] as [1, 0.2], then call price is shown.'
+
+Example[Matlab]: 'User inputs the SFEbitreeCDiv parameters [s0, k, i, sig, t, n, type] like[230, 210, 0.04545, 0.25, 0.5, 5 ,0], [option (1 for call, 0 for put), continuous dividend in percentage (0 for no dividend)] as [1, 0.2], then American call price 21.4566 is shown. [s0, k, i, sig, t, n, type] like [1.5, 1.5, 0.09, 0.2, 0.33, 6 ,1], [option (1 for call, 0 for put), continuous dividend in percentage (0 for no dividend)] as [1, 0.02], then American call price 0.0836 is shown.' 
+

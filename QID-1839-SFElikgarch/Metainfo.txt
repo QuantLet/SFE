@@ -1,0 +1,17 @@
+Name of QuantLet: SFElikgarch
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the likelihood function of a GARCH(1,1) process.'
+
+Keywords: 3D, contour, garch, autoregressive, likelihood, log-likelihood, model, plot, graphical representation, process, simulation, stochastic, stochastic-process, volatility, contour
+
+See also: SFEkurgarch, SFElikarch1, SFEtimegarch
+
+Author: Joanna Tomanek
+
+Submitted: Tue, June 17 2014 by Thijs Benschop
+
+Example:
+- 1: Log-likelihood function of a generated GARCH(1,1) process.
+- 2: Contour plot of the likelihood function of a generated GARCH(1,1) process.

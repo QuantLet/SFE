@@ -1,0 +1,13 @@
+Name of QuantLet: SFEtimewn
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the time series of a Gaussian white noise.'
+
+Keywords: distribution, normal, normal-distribution, simulation, stochastic-process, stochastic, process, white noise, gaussian, time-series, plot, graphical representation
+
+See also: SFEtimegarch, SFEtimedax
+
+Author: Joanna Tomanek
+
+Submitted: Fri, June 13 2014 by Felix Jung

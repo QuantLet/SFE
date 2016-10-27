@@ -1,0 +1,19 @@
+Name of QuantLet : SFElikarch1 
+
+Published in: Statistics of Financial Markets
+
+Description: Plots the conditional log-likelihood function of a generated ARCH(1) process.
+
+Keywords: arch, autoregressive, discrete, graphical representation, likelihood, linear, log-likelihood, plot, process, simulation, stochastic, stochastic-process, time-series
+
+See also: SFEkurgarch, SFElikgarch
+
+Author: Joanna Tomanek, Lasse Groth
+
+Submitted: Wed, July 22 2015 by quantomas
+
+Input:
+- n : number of simulations
+- alpha : true parameter for ARCH(1) process
+
+Example: An example is produced for n=100 and alpha=0.5.

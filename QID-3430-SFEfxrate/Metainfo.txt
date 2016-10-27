@@ -1,0 +1,8 @@
+Name of QuantLet : SFEfxrate 
+Published in: Statistics of Financial Markets
+Description: 'Plots the time series of daily EUR/USD FX rates and returns with a window from 2002-01-01 to 2009-01-01.'
+Keywords: data visualization, exchange-rate, financial, graphical representation, plot, returns, time-series, visualization
+See also: SFEexratevol
+Author: Maria Osipenko, Awdesch Melzer
+Submitted: Wed, July 22 2015 by quantomas
+Datafiles: exrate_GBR-USD_EUR-USD_20020101-20090101.txt

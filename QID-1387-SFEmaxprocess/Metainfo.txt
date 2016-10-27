@@ -1,0 +1,11 @@
+Name of QuantLet: SFEmaxprocess
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots a simulated price process (St) as a solid line and the maximum process (Mt) as an increasing dotted line.'
+
+Keywords: asset, black-scholes, european-option, exotic-option, financial, graphical representation, option, option-price, plot, maximum process, process, stochastic, stochastic-process, random-walk, wiener-process, brownian-motion, simulation
+
+Author: Maria de Lourdes Alavez Estevez
+
+Submitted: Wed, April 02 2014 by Felix Jung

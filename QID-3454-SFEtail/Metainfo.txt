@@ -1,0 +1,34 @@
+Name of QuantLet : SFEtail
+Published in: Statistics of Financial Markets
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and plots the right sides of the logged empirical distributions of the DAX and FTSE 100 daily returns from 1998 to 2007 (m=10).'
+Keywords:
+- asset
+- data visualization
+- dax
+- descriptive-statistics
+- financial
+- ftse100
+- graphical representation
+- index
+- log-returns
+- plot
+- regression
+- returns
+- stock-price
+- tail
+- time-series
+See also:
+- SFElshill
+- SFEmvol01
+- SFEmvol03
+- SFEtimeret
+- SFEvolgarchest
+- SFEvolnonparest
+Author:
+- Andrija Mihoci
+- Awdesch Melzer
+Submitted: Sun, July 26 2015 by quantomas
+Datafiles: FSE_LSE.dat
+Example:
+- 'Plots of the tail index regression lines and log observed returns of the DAX index from 1998 to 2007.'
+- 'Plots of the tail index regression lines and log observed returns of the FTSE 100 index from 1998 to 2007.'

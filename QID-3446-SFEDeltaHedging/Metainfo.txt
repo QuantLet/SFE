@@ -1,0 +1,21 @@
+Name of QuantLet : SFEDeltaHedging
+Published in: Statistics of Financial Markets
+Description: 'Simulates 3 stock price path for a given specification of a geometric Brownian motion. For each of these paths the positions and cumulative costs of a Delta hedging strategy are plotted.'
+Keywords:
+- black-scholes
+- brownian-motion
+- delta
+- financial
+- geometric-brownian-motion
+- graphical representation
+- hedging
+- plot
+- simulation
+- stock-price
+- wiener-process
+See also:
+- SFEDeltahedgingLogic
+- SFEDeltahedgingdepend
+- SFSdeltahedging
+Author: Felix Jung
+Submitted: Sat, July 25 2015 by quantomas

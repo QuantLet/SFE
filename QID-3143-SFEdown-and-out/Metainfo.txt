@@ -1,0 +1,33 @@
+Name of QuantLet : SFEdown-and-out
+
+Published in: Statistics of Financial Markets
+
+Description: 'Plots the situation for a down-and-out option with two possible paths of the asset price. Once the price hits the barrier, the option expires worthless regardless of any further evolution of the price.'
+
+Keywords:
+- asset
+- barrier-option
+- financial
+- geometric-brownian-motion
+- graphical representation
+- option
+- option-price
+- plot
+- price
+- random-number-generation
+- random-walk
+- returns
+- simulation
+- stochastic-process
+- stock-price
+
+Author:
+- Maria de Lourdes Alavez Estevez
+- Awdesch Melzer
+Author[Matlab]:
+- Maria de Lourdes Alavez Estevez 
+
+Submitted: Thu, June 04 2015 by Lukas Borke
+Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
+
+Example: 'User inputs the parameters [Stocks Initial Price, Interest Rate, Volatility, Barrier] like [100,0.05,0.03,25]. Then 2 paths are simulated.'
