@@ -1,4 +1,3 @@
-
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -6,40 +5,29 @@ graphics.off()
 # fix pseudo random numbers for reproducibility
 set.seed(-1)
 
-# interactive user input, e.g. (100, 0.05, 0.03, 25)
-print("Please input Stock's Initial Price S0, Interest Rate per Year r,")
-print("Volatility per year vol and Value of the barrier b")
-print("For instance: s0 = 100 0.05 0.03 25")
-print("Then press enter 2 times")
-para = scan()
+# specify parameter values
+S0  = 100   # Initial Stock Price
+r   = 0.05  # Interest Rate per Year
+vol = 0.03  # Volatility per Year
+b   = 25    # Barrier
 
-while (length(para) < 4 | length(para) > 4 | any(para <= 0)) {
-    print("Not enough input arguments. Please input in 1*4 vector form like 100 0.05 0.03 25")
-    print("[# of observations, beta, gamma, barrier]=")
-    para = scan()
-}
-
-S0  = para[1]  # Initial Stock Price
-r   = para[2]  # Interest Rate per Year
-vol = para[3]  # Volatility per Year
-b   = para[4]  # Barrier
-
-N = 1000
-t = (1:N)/N
+# specification simulation
+N          = 1000
+t          = (1:N)/N
 volatility = vol * vol
-dt = 1
+dt         = 1
 
 # Random walk simulation
 randomWt1 = rnorm(N, 0, 1)
 randomWt2 = rnorm(N, 0, 1)
-Wtsum1 = cumsum(randomWt1)
-Wtsum2 = cumsum(randomWt2)
+Wtsum1    = cumsum(randomWt1)
+Wtsum2    = cumsum(randomWt2)
 
 # geometric brownian motion
-Path1 = exp((r - 0.5 * volatility) * dt + vol * sqrt(dt) * Wtsum1)
-Path2 = exp((r - 0.5 * volatility) * dt + vol * sqrt(dt) * Wtsum2)
-StockPath1 = matrix(0, N, 1)
-StockPath2 = matrix(0, N, 1)
+Path1         = exp((r - 0.5 * volatility) * dt + vol * sqrt(dt) * Wtsum1)
+Path2         = exp((r - 0.5 * volatility) * dt + vol * sqrt(dt) * Wtsum2)
+StockPath1    = matrix(0, N, 1)
+StockPath2    = matrix(0, N, 1)
 StockPath1[1] = S0
 StockPath2[1] = S0
 
