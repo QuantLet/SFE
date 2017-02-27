@@ -1,0 +1,14 @@
+Name of QuantLet: rbfpredict 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Predicts the output of a given radial basis function (RBF) neural network (written in Matlab 2007b).'
+
+Keywords: neural-network, rbf, financial, time-series, risk
+
+See also: SFEnnarch, SFEnnjpyusd, lagged, rbftrain
+
+Author: Awdesch Melzer
+
+Submitted: Tue, August 06 2013 by Awdesch Melzer
+

@@ -1,0 +1,14 @@
+
+Name of QuantLet: rbftrain 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Trains a radial basis function (rbf) neural network. lagged.m is an auxiliary function, required to run rbftrain.m . Written in Matlab 2007b.'
+
+Keywords: neural-network, rbf, financial, risk, time-series
+
+See also: SFEnnarch, SFEnnjpyusd, lagged, rbfpredict
+
+Author: Awdesch Melzer
+
+Submitted: Tue, August 06 2013 by Awdesch Melzer

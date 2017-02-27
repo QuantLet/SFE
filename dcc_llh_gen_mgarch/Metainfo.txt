@@ -1,0 +1,25 @@
+Name of Quantlet: dcc_llh_gen_mgarch 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Calculates DCC likelihood function using: fixed univariate GARCH parameters (uni_omega, uni_alpha, uni_beta) and variable (optimisable) DCC parameters. Written in MatLab 2007b.'
+
+Keywords: likelihood, garch, multivariate, time-series, parameter, correlation-matrix
+
+Author: Mikhail Zolotko
+
+Submitted: Mon, September 03 2012 by Dedy Dwi Prastyo
+
+Input:
+- X: matrix of time series
+- a: var_params(1) DCC parameter
+- b: var_params(2) DCC parameter
+- uni_omega: GARCH parameter omega
+- uni_alpha: GARCH parameter alpha
+- uni_beta: GARCH parameter beta
+
+Output:
+- Q: unconditional correlation matrix corresponding to
+- Q_start: unconditional correlation matrix
+- eta: matrix of residuals
+- llh: Likelihood function according to Lee-Long (2009)

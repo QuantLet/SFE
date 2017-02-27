@@ -1,0 +1,13 @@
+Name of Quantlet: kerndens
+
+Published in: Statistics of Financial Markets
+
+Description: 'Calculates kernel densitiy estimator based on a gaussian (normal) kernel.  (MatLab R2007b)'
+
+Keywords: 'kernel, density, estimation, nonparametric, gaussian'
+
+See also: kern
+
+Author: Awdesch Melzer
+
+Submitted: Mon, May 06 2013 by Maria Osipenko

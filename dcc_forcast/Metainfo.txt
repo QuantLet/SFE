@@ -1,0 +1,19 @@
+Name of Quantlet: dcc_forcast 
+
+Published in: Statistics of Financial Markets
+
+Description: 'Makes one-step-ahead forecast and simulation according to the DCC model. 
+Output is: H_f is the forecast of the matrix H at t+1, Ret_f is H_f multiplied with e_t, random standard normal vector, hence Ret_f is the simulated values of X at t+1 H_f has the size (dim_ x dim_) Ret_f has the size (dim_ x 1). Written in MatLab R2007b.'
+
+Keywords:  simulation, forecast, garch, multivariate, time-series
+
+Author: Mikhail Zolotko
+
+Submitted: 'Mon, September 03 2012 by Dedy Dwi Prastyo'
+
+Input:
+- X:  data matrix (data series in columns) up to time t
+
+Output:
+- H_f: the forecast of the matrix H at t+1
+- Ret_f: H_f multiplied with e_t, random standard normal

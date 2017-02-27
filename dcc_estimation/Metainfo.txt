@@ -1,0 +1,17 @@
+Name of Quantlet: dcc_estimation
+
+Published in: Statistics of Financial Markets
+
+Description: 'Estimates the DCC model and returns coefficients (coeff) and residuals (eta). Order of the coeffients in vector ''coeff'': omega (1 x dim_ ), alpha (1 x dim_ ), beta (1 x dim_ ), a, b. The first three elements are univariate GARCH parameters, a and b are DCC parameters eta has the same size as X. (Written with MatLab R2007b)'
+
+Keywords: multivariate, garch, correlation, dynamic, correlation-matrix, time-series
+
+Author: Mikhail Zolotko
+
+Submitted: 'Mon, September 03 2012 by Dedy Dwi Prastyo'
+
+Input:
+- 'X: is the data matrix (data series in columns)'
+Output:
+- 'coeff: matrix of estimated coefficients'
+- 'eta: matrix of residuals'

@@ -1,0 +1,20 @@
+Name of Quantlet: arex
+
+Published in: Statistics of Financial Markets
+
+Description: 'Estimates the autoregressive model with explanatory variable. External function for the quantlet SFEAdfKpss. '
+
+Keywords: autoregressive, arma, model, estimation, variable
+
+Author: Mario Forni
+
+Submitted: Wed, November 18 2009 by Lasse Groth
+
+Usage: 'arex(y,x,p,b,c)'
+
+Input:
+- elements of the test statistics for the ADF test
+- 'c : constant and trend indicator'
+- 'p: order of the autoregressive process'
+- 'x: explanatory variable'
+- 'y: dependent variable'
