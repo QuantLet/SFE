@@ -8,9 +8,9 @@ Keywords: discrete, graphical representation, linear, moving-average, plot, proc
 
 See also: SFEacfar1, SFEacfar2, SFEacfma2, SFEpacfar2, SFEpacfma2, SFElikgarch, SFElikarch1
 
-Author: Joanna Tomanek, Lasse Groth
+Author: Joanna Tomanek, Lasse Groth, WK Härdle
 
-Submitted: Tue, June 17 2014 by Thijs Benschop
+Submitted: Tue, June 17 2014 by Thijs Benschop, 20190704 WKH changed the interface, no more dialogue
 
 Code warning:
 - 'In min(Mod(polyroot(c(1, -model$ar)))) :'
