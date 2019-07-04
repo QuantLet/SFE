@@ -11,27 +11,9 @@ lapply(libraries, function(x) if (!(x %in% installed.packages())) {
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 # parameter settings
-n1   = "10"
-n2   = "20"
-beta = "0.5"
-
-# Input n1
-message = "Please specify n1"
-default = n1
-n1 = winDialogString(message, default)
-n1 = type.convert(n1, na.strings = "NA", as.is = FALSE)
-
-# Input n2
-message = "Please specify n2"
-default = n2
-n2 = winDialogString(message, default)
-n2 = type.convert(n2, na.strings = "NA", as.is = FALSE, dec = ".")
-
-# Input moving average coefficient
-message = "Please specify MA-component"
-default = beta
-beta = winDialogString(message, default)
-beta = type.convert(beta, na.strings = "NA", as.is = FALSE, dec = ".")
+n1   = 10
+n2   = 20
+beta = 0.5
 
 # Simulation of MA(1)-processes
 x1 = arima.sim(n1, model = list(ar = 0, d = 0, ma = beta), rand.gen = function(n1) rnorm(n1, 
