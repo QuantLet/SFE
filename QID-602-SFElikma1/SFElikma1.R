@@ -4,20 +4,8 @@ rm(list = ls(all = TRUE))
 graphics.off()
 
 # parameter settings
-n    = "10"
-beta = "0.5"
-
-# Input n
-message = "Please specify n"
-default = n
-n = winDialogString(message, default)
-n = type.convert(n, na.strings = "NA", as.is = FALSE)
-
-# Input moving average coefficient
-message = "Please specify MA-component"
-default = beta
-beta = winDialogString(message, default)
-beta = type.convert(beta, na.strings = "NA", as.is = FALSE, dec = ".")
+n    = 100
+beta = 0.5
 
 # Simulation of MA(1)-processes as the true values
 x = arima.sim(n, model = list(ar = 0, d = 0, ma = beta), rand.gen = function(n) rnorm(n, 
