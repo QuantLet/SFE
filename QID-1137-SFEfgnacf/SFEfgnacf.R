@@ -4,11 +4,14 @@ rm(list = ls(all = TRUE))
 graphics.off()
 
 # install and load packages
-libraries = c("dvfBm")
+libraries = c("wmtsa")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
     install.packages(x)
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
+# Package dvfBm is not supported by CRAN anymore, this downloads the latest archived version
+install.packages("https://cran.r-project.org/src/contrib/Archive/dvfBm/dvfBm_1.0.tar.gz", repos = NULL, type="source")
+library('dvfBm')
 
 # parameter settings
 n   = 1000 + 1

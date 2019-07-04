@@ -8,6 +8,6 @@ Keywords: acf, autocorrelation, discrete, graphical representation, plot, proces
 
 See also: SFEacfar1, SFEacfar2, SFEacfma1, SFEacfma2, SFEpacfar2, SFEpacfma2
 
-Author: Piotr Majer
+Author: Piotr Majer, Marius Sterling
 
 Submitted: Fri, June 13 2014 by Philipp Gschoepf
