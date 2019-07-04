@@ -8,9 +8,9 @@ Keywords: moving-average, stationary, linear, discrete, simulation, time-series,
 
 See also: SFEacfar2, SFEacfma1, SFEacfma2 
 
-Author: Joanna Tomanek, Lasse Groth
+Author: Joanna Tomanek, Lasse Groth, WK Härdle
 
-Submitted: Wed, September 14 2011 by Awdesch Melzer
+Submitted: Wed, September 14 2011 by Awdesch Melzer, 20190704 changed by WKH deleted the dialogue interface.
 
 Input: 
 - n1, n2 : lags
