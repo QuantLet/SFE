@@ -17,11 +17,14 @@ Keywords:
 - test
 Author: Joanna Tomanek
 Author[Matlab]: Andrija Mihoci
+Author[Python]: Justin Hellermann
 Submitted: Fri, June 05 2015 by Lukas Borke
 Submitted[Matlab]: Mon, May 02 2016 by Meng Jou Lu
+Submitted[Python]: Tue, Jul 23 2019
 Input[Matlab]:
 - Params: a, b, sigma
 - X: yields of the US 3 month treasury bill
 Output[Matlab]: Value of the log-likelihood function in Vasicek model.
 Datafiles: sfm_pri.dat
 Datafiles[Matlab]: FTSE_DAX.dat
+Datafiles[Python]: sfm_pri.dat
