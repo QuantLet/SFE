@@ -22,5 +22,7 @@ See also:
 - SFEvolgarchest
 - SFEvolnonparest
 Author: Andrija Mihoci
+Author[Python]: Justin Hellermann
 Submitted: Thu, July 16 2015 by quantomas
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 Datafiles: FSE_LSE.dat
