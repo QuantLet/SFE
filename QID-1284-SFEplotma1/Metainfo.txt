@@ -9,8 +9,10 @@ Keywords: moving-average, stationary, linear, discrete, simulation, time-series,
 See also: SFEacfar2, SFEacfma1, SFEacfma2 
 
 Author: Joanna Tomanek, Lasse Groth, WK Härdle
+Author[Python]: Justin Hellermann
 
 Submitted: Wed, September 14 2011 by Awdesch Melzer, 20190704 changed by WKH deleted the dialogue interface.
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Input: 
 - n1, n2 : lags
