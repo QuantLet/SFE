@@ -25,4 +25,7 @@ Author:
 - Joanna Tomanek
 - Awdesch Melzer
 - Christian M. Hafner
+Author[Python]:
+- Justin Hellermann
 Submitted: Mon, June 08 2015 by Lukas Borke
+Submitted[Python]: Thu, Aug 02 2019 by Justin Hellermann
