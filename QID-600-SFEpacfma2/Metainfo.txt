@@ -9,8 +9,10 @@ Keywords: acf, partial, PACF, autocorrelation, moving-average, discrete, graphic
 See also: SFEacfar1, SFEacfar2, SFEacfma1, SFEacfma2, SFEpacfar2, SFEfgnacf
 
 Author: Christian M. Hafner, Ying Chen
+Author[Python]: Justin Hellermann
 
 Submitted: Tue, June 17 2014 by Franziska Schulz
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Input: 
 - lag : lag value
