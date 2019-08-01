@@ -11,3 +11,10 @@ Matplotlib            2.2.2
 
 In case you have already a module m installed, import them via 'import m' and check the version by the
 command 'm.__version__' to see whether your installed version matches.
+
+In case you need to install a module, open a terminal and type
+
+for Anaconda: conda install ‘module-name’
+
+for Pip Package Manager: pip install ‘module-name’ (make sure pip is added to PATH or open terminal 
+in the respective folder where ‘pip’ is located)
