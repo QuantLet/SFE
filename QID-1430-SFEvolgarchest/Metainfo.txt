@@ -9,9 +9,10 @@ Keywords: data visualization, graphical representation, plot, financial, asset, 
 See also: SFEtimeret, SFEvolnonparest, SFEmvol01, SFEmvol03, SFElshill, SFEtail
 
 Author: Andrija Mihoci
+Author[Python]: Justin Hellermann
 
 Submitted: Thu, December 15 2011 by Dedy Dwi Prastyo
-
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 Datafiles: FSE_LSE.dat
 
 Example: 'Plot of time series of estimated next-day volatility for DAX and FTSE 100 returns.'
