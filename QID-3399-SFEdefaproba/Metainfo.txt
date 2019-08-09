@@ -1,6 +1,0 @@
-Name of QuantLet : SFEdefaproba 
-Published in: Statistics of Financial Markets
-Description: 'Plots the default probability for KMV model as a function of the state of the economy for 3 different states of the economy: bad (y=-3), typical (y=0) and good(y=3).'
-Keywords: default, economy, factor-model, financial, graphical representation, one-factor-gaussian-model, plot, probability
-Author: Song Song, Yafei Xu
-Submitted: Sat, July 18 2015 by quantomas
