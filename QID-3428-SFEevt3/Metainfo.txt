@@ -1,7 +1,0 @@
-Name of QuantLet : SFEevt3 
-Published in: Statistics of Financial Markets
-Description: 'Produces a PP plot of the pseudo random variables with Gumbel distribution against theoretical Gumbel distribution.'
-Keywords: cdf, distribution, extreme-value, graphical representation, gumbel, plot, pp-plot, random, random-number-generation
-See also: SFEdenport, SFEevt1, SFEevt2
-Author: Zografia Anastasiadou
-Submitted: Wed, July 22 2015 by quantomas
