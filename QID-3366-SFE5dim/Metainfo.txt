@@ -1,8 +1,0 @@
-Name of QuantLet : SFE5dim
-Published in: Statistics of Financial Markets
-Description: 'Displays scatterplots from GARCH residuals (upper triangular) and from residuals mapped on unit square by the cumulative distribution function (lower triangular).'
-Keywords: cdf, data visualization, garch, graphical representation, plot, process, scatterplot, stochastic, stochastic-process, time-series, visualization
-See also: MMSTATcorrelation, MMSTATscatterplot
-Author: Ostap Okhrin
-Submitted: Tue, July 14 2015 by quantomas
-Datafiles: dataset.txt
