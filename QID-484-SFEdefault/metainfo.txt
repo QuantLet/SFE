@@ -1,0 +1,25 @@
+
+Name of Quantlet: SFEdefault
+
+Published in: Statistics of Financial Markets 
+
+Description: 'Calculates the historical mean and volatility of default rate 
+              bonds belong to different ratings and also the corresponding 
+              regression by exponential function fitting. Estimates the asset                     
+              correlation using one-factor model.'
+
+Keywords: default rate, regression, volatility, asset correlation 
+
+See also: 'BaseCorrGaussModelCDO, CompCorrGaussModelCDO, ETL, SFEETLGaussTr1,
+           SFEbaseCorr, SFEcompCorr, SFEcompCorr, SFEdefaproba, SFEmyfun, 
+           lowerTrLossGauss'              
+
+Author[Matlab]: Song Song, Maria Feld
+
+Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
+
+Datafile[Matlab]: SFEMoodydefault.xlsx
+
+Output: 'Historical mean of default rate, default rate volatility, the corresponding                    
+         regression by exponential function fitting and the estimated one-factor  
+         model asset correlation.'

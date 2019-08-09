@@ -1,0 +1,27 @@
+Name of QuantLet : SFEvar_pot_params
+
+Published in : Statistics of Financial Markets
+
+Description : 'Plots the parameters estimated for calculating Value-at-Risk with Peaks Over 
+               Treshold model. These parameters were estimated with a moving window of size 
+               250 for the portfolio composed by Bayer, BMW, siemens and Volkswagen.'
+
+
+Keywords : 'VaR, backtesting, block-maxima, POT, extreme-value, pareto, portfolio, estimation,
+financial, forecast, exceedance, risk, data visualization, graphical representation, plot,
+time-series'
+
+See also : 'SFEvar_block_max_params, SFEvar_block_max_backtesting, SFEvar_pot_params, block_max,
+var_block_max_backtesting, var_pot, var_pot_backtesting'
+
+Author : Lasse Groth, Awdesch Melzer, Piedad Castro
+Author[Matlab]: Barbara Choros, Awdesch Melzer
+
+Submitted : Thu, November 24 2016 by Piedad Castro
+
+Datafiles : '2004-2014_dax_ftse.csv'
+
+Input: 'The datafile contains daily price data from 07.05.2004 to 07.05.2014 for 
+selected companies which are part of DAX30 and FTSE100 as well as the 
+corresponding index data. This code makes use of the daily prices for the 
+companies Bayer, BMW, Siemens and Volkswagen.'

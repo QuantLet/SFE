@@ -1,0 +1,19 @@
+Name of QuantLet: SFEDAXlogreturns
+
+Published in: Statistics of Financial Markets
+
+Description: 'plots the DAX daily log-returns from 10.05.2004 to 07.05.2014 
+              toghether with the normal density for the log-returns of the 
+              last four years of the time series.'
+
+Keywords: log-returns, density, normal, time-series, plot
+
+Author: Derrick Kanngiesser and Piedad Castro
+
+Submitted: Fri, July 01 2016 by Piedad Castro
+
+Datafile: 2004-2014_dax_ftse.csv
+
+Input: 'The datafile contains daily price data from 07.05.2004 to 07.05.2014 for 
+selected companies which are part of DAX30 and FTSE100 as well as the 
+corresponding index data. This code makes only use of the date and DAX variables.'

@@ -1,0 +1,26 @@
+Name of QuantLet : SFEvar_block_max_params
+
+Published in : Statistics of Financial Markets
+
+Description : 'Plots the parameters estimated for calculating Value-at-Risk with block 
+               maximal model. These parameters were estimated with a moving window of size 
+               250 for the portfolio composed by Bayer, BMW, siemens and Volkswagen.'
+
+
+Keywords : 'VaR, parameter, block-maxima, portfolio, estimation, financial, forecast, risk, data
+visualization, graphical representation, plot, time-series'
+
+See also : 'SFEvar_block_max_backtesting, SFEvar_pot_backtesting, SFEvar_pot_params, block_max,
+var_block_max_backtesting, var_pot, var_pot_backtesting'
+
+Author : Lasse Groth, Awdesch Melzer and Piedad Castro
+Author[Matlab]: Barbara Choros, Awdesch Melzer and Piedad Castro
+
+Submitted : Thu, December 1 2016 by Piedad Castro
+
+Datafiles : '2004-2014_dax_ftse.csv'
+
+Input: 'The datafile contains daily price data from 07.05.2004 to 07.05.2014 for 
+selected companies which are part of DAX30 and FTSE100 as well as the 
+corresponding index data. This code makes use of the daily prices for the 
+companies Bayer, BMW, Siemens and Volkswagen.'

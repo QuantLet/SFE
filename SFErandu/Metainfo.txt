@@ -1,0 +1,27 @@
+Name of QuantLet : SFErandu
+Published in: Statistics of Financial Markets
+Description: 'Produces 3d plot of hyperplanes of pseudo-random uniform numbers for given values of sample size and seed'
+Keywords:
+- random
+- random-number-generation
+- randu
+- simulation
+- uniform
+- monte-carlo
+See also:
+- SFENormalApprox1
+- SFENormalApprox3
+- SFENormalApprox4
+- SFEfibonacci
+- SFEgamma
+- SFErangen1
+- SFErangen2
+- SFEtheta
+- SFEvega
+- SFEvolga
+Author:
+- Awdesch Melzer
+Author[Matlab]: 
+- Wolfgang K. Haerdle
+Submitted[Matlab]: Wed, December 23 2009 by Lasse Groth
+Example: 'a 3d plot of uniform random numbers is generated for the following values of the parameters: n=10000, seed=1298324'
