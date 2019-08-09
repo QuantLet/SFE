@@ -1,8 +1,0 @@
-Name of QuantLet : SFEevt1 
-Published in: Statistics of Financial Markets
-Description: 'Computes and displays extreme value distributions using the pdf (probability density functions) with adjusted parameter alpha: Frechet, Gumbel and Weibull.'
-Keywords: Frechet, GEV, Weibull, density, distribution, extreme-value, gumbel
-See also: SFEevt2, SFEevt2, SFEevt3
-Author: Zografia Anastasiadou
-Submitted: Thu, June 04 2015 by Lukas Borke
-Example: 'Gumbel distribution (solid line), Frechet distribution with parameter alpha=1/2 (dotted line) and Weibull distribution with parameter alpha=-1/2 (dash-dot line).'

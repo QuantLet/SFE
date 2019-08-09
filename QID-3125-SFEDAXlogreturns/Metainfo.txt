@@ -1,9 +1,0 @@
-Name of QuantLet : SFEDAXlogreturns 
-Published in: Statistics of Financial Markets
-Description: 'Plots the time series of daily DAX log returns with a window from 2005 to 2010 and the density function for daily DAX log returns from 2008 to 2010.'
-Keywords: data visualization, dax, density, financial, graphical representation, log-returns, plot, returns, time-series, visualization
-Author: Derrick Kanngiesser
-Submitted: Wed, June 03 2015 by Lukas Borke
-Datafiles: DAXlogreturns.txt
-Example: Plot of daily DAX logreturns data from 2005 to 2010 with density plot
-
