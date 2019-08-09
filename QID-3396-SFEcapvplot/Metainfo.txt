@@ -1,8 +1,0 @@
-Name of QuantLet : SFEcapvplot
-Published in: Statistics of Financial Markets
-Description: 'Plots the Black implied volatility structure (blue) of LIBOR caplets observed on 2002-08-13 and the calibrated volatility structure (red) with parameters a, b, c, d.'
-Keywords: Black, calibration, caplet, data visualization, financial, graphical representation, implied-volatility, interest-rate, plot, visualization, volatility
-See also: SFEcir, SFEscap, SFEscomCIR, SFEusycplot
-Author: Awdesch Melzer, Li Sun
-Submitted: Sat, July 18 2015 by quantomas
-Datafiles: cap.txt
