@@ -20,8 +20,12 @@ See also:
 - SFEVolaCov
 - SFEVolaPCA
 - SFEVolaTermStructure
+See also[Matlab]: 'SFEVolaTermStructure, SFEVolaCov, SFEVolaPCA, SFEPCA, SFEVolSurfPlot'
 Author:
 - Maria Grith
 - Awdesch Melzer
+Author[Matlab]: Maria Grith
 Submitted: Fri, July 24 2015 by quantomas
+Submitted[Matlab]: Tue, May 03 2016 by Meng Jou Lu
+Output[Matlab]: Plot of implied volatility surface.
 Datafiles: volsurfdata2.dat

@@ -1,4 +1,4 @@
-Name of QuantLet : SFEWienerProcess
+﻿Name of QuantLet : SFEWienerProcess
 
 Published in : Statistics of Financial Markets
 
@@ -10,9 +10,13 @@ See also: SFEbinomv, SFEbinomv_log
 
 Author: Cindy Lamm, Karel Komorád
 
+Author[Matlab]: J.Budek, K.Komorad
+
 Submitted: Sat, July 25 2015 by quantomas
 
 Input:
 - dt : delta t
 - c : constant c
 - k : number of trajectories
+
+Example: User inputs the SFEWienerProcess parameters [Delta t, Constant c, Number of trajectories] like [1, 1, 3]

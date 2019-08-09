@@ -19,7 +19,9 @@ See also:
 - SFEfdescStat
 - SFEfdescStat
 Author: Awdesch Melzer
+Author[Matlab]: Awdesch Melzer
 Submitted: Wed, June 10 2015 by Lukas Borke
+Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 Datafiles:
 - BAYERlevel(03.01.00-30.10.06).txt
 - FTSElevel(03.01.00-30.10.06).txt

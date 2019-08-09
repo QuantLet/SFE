@@ -10,6 +10,8 @@ See also: SFEevt1, SFEevt3
 
 Author: Wolfgang K. Haerdle
 
+Author [Matlab]: Juergen Franke
+
 Submitted: Fri, June 05 2015 by Lukas Borke
 
 Input: 

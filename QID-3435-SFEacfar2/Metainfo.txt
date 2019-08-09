@@ -9,10 +9,10 @@ Keywords: acf, autocorrelation, autoregressive, discrete, graphical representati
 See also: SFEacfar1, SFEacfma1, SFEacfma2, SFElikma1, SFEpacfar2, SFEpacfma2, SFEplotma1
 
 Author: Joanna Tomanek
-Author[Python]: Justin Hellermann
+
+Author[Matlab]: Christian Hafner
 
 Submitted: Fri, July 24 2015 by quantomas
-Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Input:
 - lag : lag value

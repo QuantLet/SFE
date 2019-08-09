@@ -1,59 +1,72 @@
-
 # clear variables and close windows
-rm(list = ls(all = TRUE))
+rm(list=ls(all=TRUE))
 graphics.off()
 
+# set working directory
+# setwd("C:/...")
+
 # install and load packages
-libraries = c("tseries")
-lapply(libraries, function(x) if (!(x %in% installed.packages())) {install.packages(x)} )
+libraries = c("data.table", "tseries")
+lapply(libraries, function(x) if (!(x %in% installed.packages())) {
+  install.packages(x)
+})
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 # load the data
-data = read.table("DAXlogreturns.txt")
-x = data[, 4]
-x = 100 * x
-y = data[, 1]
-# the year 2008 starts with observation 765, 2010 ends with observation 1528
-max1 = max(x)
-min1 = min(x)
+dataset = fread("2004-2014_dax_ftse.csv", select =  c("Date", "DAX 30", "DEUTSCHE TELEKOM"))
+dataset = as.data.frame(dataset)
 
-time = strptime(data[, 2], format = "%Y%m%d")
-labels = as.numeric(format(as.Date(time, "%Y-%m-%d"), "%Y"))
-where.put = c(1, which(diff(labels) == 1) + 1)
+# log-returns
+X = diff(log(dataset$`DAX 30`))
 
-plot(y, x, type = "l", col = "blue3", frame = TRUE, axes = FALSE, ylim = c(min1 - 
-    0.3 * abs(min1), max1 + 0.4 * abs(max1)), xlim = c(0, 1650), xlab = "Time", 
-    ylab = "DAX log returns in %")
+# limits for the y-axis in the plot
+yLimUp = max(abs(c(min(X), max(X))) - 0)
+yLims  = c(-yLimUp, yLimUp)
 
-line1 = cbind(c(7.65, 7.65), c(max1 + 0.5 * abs(max1), min1 - 0.5 * abs(min1)))
-lines(c(line1[1, 1] * 100, line1[2, 1] * 100), c(line1[1, 2], line1[2, 2]), col = "black", lwd = 2)
-line2 = cbind(c(15.28, 15.28), c(max1 + 0.5 * abs(max1), min1 - 0.5 * abs(min1)))
-lines(c(line2[1, 1] * 100, line2[2, 1] * 100), c(line2[1, 2], line2[2, 2]), col = "black", lwd = 2)
+# Date variable
+date.X       = as.Date(dataset$Date)[-1]
+date.X.Years = as.numeric(format(date.X, "%Y"))
+where.put    = c(1, which(diff(date.X.Years) == 1)+1)
 
-# the mean and the standard deviation for the observation in the years 2008-2010 are derived
-m  = x[765:1528]
-mu = mean(m)
-variance = var(m)
-sigma = sqrt(variance)
-ndata = seq(min1 - sigma^2, sigma^2 * (max1 - min1), 0.1)
-f = 750 * 1/sqrt(2 * pi * sigma * sigma) * exp(-(ndata - mu)^2/(2 * sigma^2)) + 15.28
-fndata = cbind(f, ndata)
+# for the density we take the log-returns of the last four years available in the dataset
+# i.e from 10.05.2010 to 10.05.2014
+start      = which(date.X == "2010-05-10")
+end        = length(X) 
+X.lastfour = X[start:end]
 
-lines(1514 + fndata[, 1], fndata[, 2], col = "red3", lwd = 2.5)
-line3 = cbind(c(7.65, 15.28), c(mu, mu))
-lines(c(line3[1, 1] * 100, line3[2, 1] * 100), c(line3[1, 2], line3[2, 2]), col = "black", lwd = 2, lty = "dashed")
+# these objects will be later required to plot the density
+mu.X      = mean(X.lastfour)
+sigma2.X  = var(X.lastfour)
+sigma.X   = sd(X.lastfour)
+ndata     = seq(-yLimUp, yLimUp, length.out = 100000)
 
-a = mu - sigma
-b = mu + sigma
-i = a
-
-while (i < b) {
-    line8 = cbind(c(15.28, 7.5 * 1/sqrt(2 * pi * sigma * sigma) * exp(-(i - mu)^2/(2 * sigma^2)) + 15.28), c(i, i))
-    lines(c(line8[1, 1] * 100, line8[2, 1] * 100), c(line8[1, 2], line8[2, 2]), col = "red3", lwd = 2)
-    i = i + 0.025
+density    = function(x, mu, sigma2){
+  (sqrt(2*pi*sigma2))^(-1)*exp(-(x - mu)^2/(2*sigma2))
 }
 
-axis(side = 2, at = seq(-15, 15, by = 5), label = seq(-15, 15, by = 5), lwd = 1)
-axis(side = 1, at = where.put, label = labels[where.put], lwd = 0.5)
-abline(h = seq(-15, 15, by = 2.5), lty = "dotted", lwd = 0.5, col = "grey")
-abline(v = where.put, lty = "dotted", lwd = 0.5, col = "grey") 
+# plot of the DAX log-returns with the normal density for the observations 
+# of the last four years available
+par(las = 1)
+plot(1:end, X, type="l", col="blue3", frame = TRUE, axes = FALSE, 
+     ylim = yLims, xlim = c(0, end + 250), 
+     xlab = "Date", ylab = "DAX log-returns")
+lines(c(start, start), yLims, col = 'black', lwd=2) 
+lines(c(end, end), yLims, col = 'black', lwd = 2)    
+
+# the density is here mulplied by 10 because otherwise the scale of the plot 
+# would not alloud us to see it
+lines(end + density(ndata, mu.X, sigma2.X)*10, ndata, col='red3', lwd=2.5) 
+lines(c(start, end), c(mu.X, mu.X), col='black', lwd=2, lty='dashed')
+
+# fill the area betwenn the area under the density curve between (mu - sigma) and (mu + sigma)
+a = mu.X - sigma.X
+b = mu.X + sigma.X
+i = a
+while (i<b){
+  lines(c(end,end + density(i, mu.X, sigma2.X)*10), c(i, i), col = 'red3', lwd = 2)
+  i=i+((b-a)/100)
+}
+
+# names of the axes
+axis(side=2, at = seq(-1, 1, by = 0.02), label = round(seq(-1, 1, by = 0.02), 2), lwd=1)
+axis(side=1, at = where.put, label = date.X.Years[where.put], lwd=0.5)

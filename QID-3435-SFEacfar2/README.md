@@ -15,10 +15,10 @@ Keywords: acf, autocorrelation, autoregressive, discrete, graphical representati
 See also: SFEacfar1, SFEacfma1, SFEacfma2, SFElikma1, SFEpacfar2, SFEpacfma2, SFEplotma1
 
 Author: Joanna Tomanek
-Author[Python]: Justin Hellermann
+
+Author[Matlab]: Christian Hafner
 
 Submitted: Fri, July 24 2015 by quantomas
-Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Input:
 - lag : lag value
@@ -33,15 +33,21 @@ Example:
 
 ```
 
-![Picture1](SFEacfar2_1-1.png)
+![Picture1](SFEacfar2-1_m.png)
 
-![Picture2](SFEacfar2_2-1.png)
+![Picture2](SFEacfar2-2_m.png)
 
-![Picture3](SFEacfar2_3-1.png)
+![Picture3](SFEacfar2-3_m.png)
 
-![Picture4](SFEacfar2_4-1.png)
+![Picture4](SFEacfar2-4_m.png)
 
-![Picture5](SFEacfar2_py.png)
+![Picture5](SFEacfar21.png)
+
+![Picture6](SFEacfar22.png)
+
+![Picture7](SFEacfar23.png)
+
+![Picture8](SFEacfar24.png)
 
 ### R Code
 ```r
@@ -80,54 +86,30 @@ title("Sample autocorrelation function (acf)")
 
 ```
 
-automatically created on 2019-08-01
+automatically created on 2018-05-28
 
-### PYTHON Code
-```python
+### MATLAB Code
+```matlab
 
-import pandas as pd
-import numpy as np
-from statsmodels.graphics.tsaplots import plot_acf
-from statsmodels.tsa.arima_process import arma_generate_sample
-import matplotlib.pyplot as plt
+% user inputs parameters
+disp('Please input lag value lag, value of alpha1 a_1, value of alpha_2 a2 as: [30, 0.5 0.4]') ;
+disp(' ') ;
+para = input('[lag, a1, a2]=');
 
-# parameter settings
-lags = 30    # lag value
-n = 100000
-alphas = np.array([0.5,0.4])
-betas = np.array([0])
-# add zero-lag and negate alphas
-ar = np.r_[1, -alphas]
-ma = np.r_[1, betas]
+while length(para) < 3
+    disp('Not enough input arguments. Please input in 1*3 vector form like [30, 0.5, 0.4] or [30 0.5 0.4]');
+    para=input('[lag, a1, a2]=');
+end
 
-np.random.seed(123)
-simulated_data_1 = arma_generate_sample(ar=ar, ma=ma, nsample=n)
-# depending on cpu, plotting may take some time 
-ar1 = np.r_[1,[-0.5,-0.4]]
-ar2 = np.r_[1,[-0.5,0.4]]
-ar3 = np.r_[1,[0.5,0.4]]
-ar4 = np.r_[1,[0.5,-0.4]]
-ma = np.r_[1, betas]
+lag = para(1);
+a1  = para(2);
+a2  = para(3);
 
-
-f, axarr = plt.subplots(2, 2,figsize=(11, 6))
-simulated_data_1 = arma_generate_sample(ar=ar1, ma=ma, nsample=n) 
-plot_acf(simulated_data_1,lags=lags,zero=False,alpha=None, ax=axarr[0, 0],title='Sample ACF of AR(2) with '+r'$\alpha_1$='+str(-ar1[1])+' and '+r'$\alpha_2$='+str(-ar1[2]))
-axarr[0, 0].set_xlabel('lags')
-simulated_data_2 = arma_generate_sample(ar=ar2, ma=ma, nsample=n) 
-plot_acf(simulated_data_2,lags=lags,zero=False,alpha=None, ax=axarr[0, 1],title='Sample ACF of AR(2) with '+r'$\alpha_1$='+str(-ar2[1])+' and '+r'$\alpha_2$='+str(-ar2[2]))
-axarr[0, 1].set_xlabel('lags')
-simulated_data_3 = arma_generate_sample(ar=ar3, ma=ma, nsample=n) 
-plot_acf(simulated_data_3,lags=lags,zero=False,alpha=None, ax=axarr[1, 0],title='Sample ACF of AR(2) with '+r'$\alpha_1$='+str(-ar3[1])+' and '+r'$\alpha_2$='+str(-ar3[2]))
-axarr[1, 0].set_xlabel('lags')
-simulated_data_4 = arma_generate_sample(ar=ar4, ma=ma, nsample=n) 
-plot_acf(simulated_data_4,lags=lags,zero=False,alpha=None, ax=axarr[1,1],title='Sample ACFof AR(2) with '+r'$\alpha_1$='+str(-ar4[1])+' and '+r'$\alpha_2$='+str(-ar4[2]))
-axarr[1, 1].set_xlabel('lags')
-
-plt.tight_layout()
-plt.savefig('SFEacfar2_py.png')
-
-plt.show()
+% main computation
+randn('state', 0);                % Start from a known state.
+x = randn(10000, 1);              % 10000 Gaussian deviates ~ N(0, 1).
+y = filter(1, [1 -a1 -a2], x);    % Create an AR(2) process.
+autocorr(y, lag, [], 2);          % Plot the acf with 95% CI
 ```
 
-automatically created on 2019-08-01
+automatically created on 2018-05-28

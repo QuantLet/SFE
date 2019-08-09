@@ -23,8 +23,8 @@ for (i in 2:N) {
     StockPath1[i] = S0 * Path1[i]
 }
 
-s = StockPath1
-y = matrix(0, N, 1)
+s    = StockPath1
+y    = matrix(0, N, 1)
 y[i] = s[1]
 
 for (i in 2:N) {
