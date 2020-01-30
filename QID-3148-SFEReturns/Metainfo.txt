@@ -15,16 +15,17 @@ Keywords:
 - skewness
 - statistics
 - test
-Author: Joanna Tomanek
+Author[r]: Joanna Tomanek
 Author[m]: Andrija Mihoci
 Author[py]: Justin Hellermann
-Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[r]: Fri, June 05 2015 by Lukas Borke
 Submitted[m]: Mon, May 02 2016 by Meng Jou Lu
 Submitted[py]: Thu, Aug 01 2019 by Justin Hellermann
+
 Input[m]:
 - Params: a, b, sigma
 - X: yields of the US 3 month treasury bill
-Output[Matlab]: Value of the log-likelihood function in Vasicek model.
-Datafiles: sfm_pri.dat
+Output[m]: Value of the log-likelihood function in Vasicek model.
+Datafiles[r]: sfm_pri.dat
 Datafiles[m]: FTSE_DAX.dat
 Datafiles[py]: sfm_pri.dat
