@@ -1,0 +1,26 @@
+Name of QuantLet: block_max
+
+Published in: Statistics of Financial Markets
+
+Description: 'Provides Value at Risk estimates computed with Block Maxima Model 
+              with generalized extreme value.'
+
+Keywords: 'VaR, backtesting, block-maxima, portfolio, returns'
+
+See also: SFEclose, SFEportfolio, SFEtailGPareto_pp, SFEtailGPareto_qq, block_max, var_block_max_backtesting
+
+Author: Barbara Choros, Awdesch Melzer and Piedad Castro
+
+Submitted: Thu, December 1 2016 by Piedad Castro
+
+Inputs: 
+- y: vector of returns
+- p: quantile for VaR estimation (e.g. 0.95)
+- n: scalar, number of points included (e.g. 16)
+
+Outputs: 
+- var: Value-at-Risk
+- tau: -1/kappa
+- alpha: scale parameter
+- beta: location parameter
+- kappa: shape parameter

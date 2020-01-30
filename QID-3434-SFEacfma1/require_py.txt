@@ -1,0 +1,18 @@
+The Script was written in Python 3.6.5. Additionally, please make sure the modules are installed 
+properly and with the corresponding version below.
+Full executability can only be assured with the corresponding Python and lower module versions. 
+Different versions may cause warnings or result in a crash during its execution.
+
+Module                Version
+--------------------  --------------------
+Pandas                0.23.0
+Numpy                 1.14.4
+Statsmodels           0.9.0
+Matplotlib            2.2.2
+
+In case you have already a module m installed, import them via 'import m' and check the version by the
+command 'm.__version__' to see whether your installed version matches.
+
+for Anaconda: conda install ‘module-name’ 
+for pip Package Manager: pip install ‘module-name’ (make sure pip is added to PATH or open terminal 
+in the respective folder where ‘pip’ is located)

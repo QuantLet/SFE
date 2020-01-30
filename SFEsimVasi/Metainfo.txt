@@ -1,0 +1,14 @@
+Name of QuantLet: SFEsimVasi
+Published in: Statistics of Financial Markets
+Description: 'Plots a simulated Vasicek process using the parameters given by the user'
+Keywords:
+- vasicek
+- stochastic
+- stochastic-process
+- simulation
+- monte-carlo
+Author[Matlab]: Li Sun
+Submitted[Matlab]: Fri, February 05 2010 by Lasse Groth
+Input[Matlab]:
+- Parameters: 'a (speed of reversion), b (long term mean), sigma (instantaneous volatility), r0 (initial short rate), T (time to maturity)'
+Example: 'Plot of a simulated Vasicek process'

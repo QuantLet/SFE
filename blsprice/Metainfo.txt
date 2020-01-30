@@ -1,0 +1,18 @@
+Name of QuantLet: blsprice
+
+Published in: Statistics of Financial Markets
+
+Description: Black-Scholes price function. It is used for calculation of put and call option prices in the Quantlet SFEbsprices.
+
+Keywords: black-scholes, call, option, option-price, put
+
+See also: SFEbsprices
+
+Author: Maria Osipenko
+
+Submitted: Thu, March 05 2015 by Lukas Borke
+Submitted[Matlab]: Wed, December 21 2016 by Lily Medina
+
+Input: S, K, r, sigma, tau - typical BS parameters
+
+Output: Call option price or Put option price.

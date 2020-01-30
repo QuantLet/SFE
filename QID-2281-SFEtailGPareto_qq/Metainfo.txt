@@ -1,0 +1,20 @@
+Name of QuantLet: SFEtailGPareto_qq
+
+Published in: Statistics of Financial Markets
+
+Description: SFEtailGPareto_qq estimates the parameters of Generalized Pareto Distribution for the negative log-returns of portfolio (Bayer, BMW, Siemens)
+
+Keywords: pareto, qq-plot
+
+See also: SFEclose, SFEportfolio, SFEtailGEV_pp, SFEtailGEV_qq, SFEtailGPareto_pp
+
+Author: Awdesch Melzer
+
+Submitted: Wed, December 21 2016 by Lily Medina
+Submitted[Matlab]: Wed, December 21 2016 by Lily Medina
+
+Datafiles: 2004-2014_dax_ftse.csv
+
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for Bayer, BMW, Siemens and Volkswagen.
+
+Output: QQ-plot with Generalized Pareto

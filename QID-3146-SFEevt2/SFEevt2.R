@@ -14,16 +14,16 @@ set.seed(20080605)
 
 # interactive selection menu
 selitem = c("Weibull", "Frechet", "Gumbel")
-sel = select.list(selitem, title = "Please choose")
+sel     = select.list(selitem, title = "Please choose")
 
 # global parameter settings
 n = 100
-y = (1:n)/(n + 1)
+y = (1:n) / (n + 1)
 
 # Weibull
 if (sel == "Weibull") {
-    x = -rweibull(100, 2, scale = 1)
-    x = sort(x)
+    x        = -rweibull(100, 2, scale = 1)
+    x        = sort(x)
     quantile = pnorm(x)
     plot(y, y, col = "red", type = "line", lwd = 2.5, main = "PP Plot of Extreme Value - Weibull", 
         xlab = "X", ylab = "Y", xaxt = "n", yaxt = "n")
@@ -34,8 +34,8 @@ if (sel == "Weibull") {
 
 # Frechet
 if (sel == "Frechet") {
-    x = rweibull(100, 2, scale = 1)
-    x = sort(x)
+    x        = rweibull(100, 2, scale = 1)
+    x        = sort(x)
     quantile = pnorm(x)
     plot(y, y, col = "red", type = "line", lwd = 2.5, main = "PP Plot of Extreme Value - Frechet", 
         xlab = "X", ylab = "Y", xaxt = "n", yaxt = "n")
@@ -46,13 +46,13 @@ if (sel == "Frechet") {
 
 # Gumbel
 if (sel == "Gumbel") {
-    x = rnorm(100)
-    gumbel = exp(-2.7182^(-x))
-    gumbel = sort(gumbel)
-    mu = 0
-    sigma = 1
-    s = rgev(100, 0, mu, sigma)
-    s = sort(s)
+    x        = rnorm(100)
+    gumbel   = exp(-2.7182^(-x))
+    gumbel   = sort(gumbel)
+    mu       = 0
+    sigma    = 1
+    s        = rgev(100, 0, mu, sigma)
+    s        = sort(s)
     quantile = pnorm(s)
     plot(y, y, col = "red", type = "l", lwd = 2.5, main = "PP Plot of Extreme Value - Gumbel", 
         xlab = "X", ylab = "Y", xaxt = "n", yaxt = "n")

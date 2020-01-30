@@ -1,4 +1,3 @@
-
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **SFEReturns** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
@@ -6,39 +5,41 @@
 ```yaml
 
 Name of QuantLet : SFEReturns
-
-Published in : Statistics of Financial Markets
-
-Description : 'Computes the first order auto correlation of the returns, squared returns and
-absolute returns as well as the skewness, kurtosis and Jarque-Bera test statistic for German blue
-chips, 1974 - 1996.'
-
-Keywords : 'autocorrelation, blue chips, correlation, dax, descriptive-statistics, financial,
-jarque-bera-test, kurtosis, log-returns, returns, skewness, statistics, test'
-
-Author : Joanna Tomanek
-
-Author[Matlab] : Andrija Mihoci
-
-Submitted : Fri, June 05 2015 by Lukas Borke
-
-Submitted[Matlab] : Mon, May 02 2016 by Meng Jou Lu
-
-Input[Matlab]: 
+Published in: Statistics of Financial Markets
+Description: 'Computes the first order auto correlation of the returns, squared returns and absolute returns as well as the skewness, kurtosis and Jarque-Bera test statistic for German blue chips, 1974 - 1996.'
+Keywords:
+- autocorrelation
+- blue chips
+- correlation
+- dax
+- descriptive-statistics
+- financial
+- jarque-bera-test
+- kurtosis
+- log-returns
+- returns
+- skewness
+- statistics
+- test
+Author: Joanna Tomanek
+Author[m]: Andrija Mihoci
+Author[py]: Justin Hellermann
+Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted[m]: Mon, May 02 2016 by Meng Jou Lu
+Submitted[py]: Thu, Aug 01 2019 by Justin Hellermann
+Input[m]:
 - Params: a, b, sigma
 - X: yields of the US 3 month treasury bill
-
-Output[Matlab] : Value of the log-likelihood function in Vasicek model.
-
-Datafiles : sfm_pri.dat
-
-Datafiles[Matlab] : FTSE_DAX.dat
+Output[Matlab]: Value of the log-likelihood function in Vasicek model.
+Datafiles: sfm_pri.dat
+Datafiles[m]: FTSE_DAX.dat
+Datafiles[py]: sfm_pri.dat
 
 ```
 
-
-### R Code:
+### R Code
 ```r
+
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
@@ -107,8 +108,11 @@ result
 
 ```
 
-### MATLAB Code:
+automatically created on 2019-08-01
+
+### MATLAB Code
 ```matlab
+
 
 clear
 clc 
@@ -163,3 +167,69 @@ disp(' ')
 disp('Bera-Jarque test statistic')
 disp(Y(:,6))
 ```
+
+automatically created on 2019-08-01
+
+### PYTHON Code
+```python
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from statsmodels.stats.stattools import jarque_bera
+
+
+data=pd.read_table('sfm_pri.dat',header=None,sep=' ').round(2)
+cols=["all", "allianz", "basf", "bayer", "bmw", "cobank", "daimler", 
+    "deutsche bank", "degussa", "dresdner bank", "hoechst", "karstadt", "linde", 
+    "man", "mannesmann", "preussag", "rwe", "schering", "siemens", "thyssen", 
+    "volkswagen"]
+data.columns=cols
+#msg1 = "This program calculates the first order auto correlation of returns, squared returns and absolute returns and skewness, kurtosis and the Bera Jarque statistic for german blue chips, 1974 - 1996"
+#print(msg1)
+
+selection='rwe'
+
+def log_returns(series):
+	rets=np.log(series.pct_change()+1).dropna()
+	return(rets)
+
+def corr_coeff(df):
+	res=[]
+	for col in df.columns:
+		corr=np.corrcoef(df[col].iloc[1:],df[col].shift(1).dropna())
+		res.append([col,corr[1,0]])
+	return(pd.DataFrame(res,columns=['Stock','Coefficient']))
+
+def distr_properties(df):
+	#calculate skewness, kurtosis, value of JB, JB p-value
+	skew = df.skew(axis=0)
+	kurt = df.kurtosis(axis=0)
+
+	jbs = df.apply(jarque_bera,axis=0).values.flatten()
+	pd.set_option('display.float_format', lambda x: '%.4f' % x)
+	jb_dataframe = pd.DataFrame([list(elem) for elem in jbs],columns=['JB','JBpv','skewness','kurtosis']).reset_index(drop=True).astype(float)
+	jb_dataframe['Stock']=cols
+	jb_dataframe=jb_dataframe[['Stock','JB','JBpv','skewness','kurtosis']]
+	return(jb_dataframe)
+	
+	
+
+data_ret = data.apply(log_returns,axis=0)
+data_ret_sq = data_ret.apply(np.square)
+data_ret_abs = data_ret.apply(np.abs)
+
+#Calculate Correlation Coefficients
+corr_ret = corr_coeff(data_ret)
+corr_ret_sq = corr_coeff(data_ret_sq)
+corr_ret_abs = corr_coeff(data_ret_abs)
+
+jb_stats = distr_properties(data_ret)
+res=pd.concat([corr_ret,corr_ret_sq.iloc[:,1:],corr_ret_abs.iloc[:,1:],jb_stats.iloc[:,1:]],axis=1)
+res.columns=['Stock','rho(ret)','rho(ret^2)','rho(|ret|)','JB','JBpv','S','K']
+pd.set_option('display.max_columns', 10)
+print(res)
+
+```
+
+automatically created on 2019-08-01

@@ -5,7 +5,7 @@ graphics.off()
 # install and load packages
 libraries = c("fExtremes")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
-    install.packages(x)
+  install.packages(x)
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
@@ -27,9 +27,9 @@ k = winDialogString(message, default)
 k = type.convert(k, na.strings = "NA", as.is = FALSE, dec = ".")
 
 if (k < 8 && k > (n - 1)) warning("SFEhillquantile: excess should be greater than 8 and less than the number of elements.", 
-    call. = FALSE)
+                                  call. = FALSE)
 if (q < 0 && q > 1) warning("SFEhillquantile: please give a rational quantile value.", 
-    call. = FALSE)
+                            call. = FALSE)
 
 rest = gpdFit(x, nextremes = k, type = "mle")				# ML-estimation of gamma 
 rest = rest@parameter

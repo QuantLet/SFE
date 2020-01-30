@@ -1,41 +1,40 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="884" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **SFEvolgarchest** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of QuantLet : SFEvolgarchest
+Name of QuantLet: SFEvolgarchest
 
-Published in : Statistics of Financial Markets
+Published in: Statistics of Financial Markets
 
-Description : 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt
-Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London
-Stock Exchange (LSE) and estimates the volatility of the DAX and FTSE 100 daily return processes
-from 1998 to 2007 using a GARCH(1,1) model.'
+Description: 'Reads the date, DAX index values, stock prices of 20 largest companies at Frankfurt Stock Exchange (FSE), FTSE 100 index values and stock prices of 20 largest companies at London Stock Exchange (LSE) and estimates the volatility of the DAX and FTSE 100 daily return processes from 1998 to 2007 using a GARCH(1,1) model.'
 
-Keywords : 'data visualization, graphical representation, plot, financial, asset, stock-price,
-returns, time-series, dax, ftse100, index, descriptive-statistics, volatility, garch, index'
+Keywords: data visualization, graphical representation, plot, financial, asset, stock-price, returns, time-series, dax, ftse100, index, descriptive-statistics, volatility, garch, index
 
-See also : SFEtimeret, SFEvolnonparest, SFEmvol01, SFEmvol03, SFElshill, SFEtail
+See also: SFEtimeret, SFEvolnonparest, SFEmvol01, SFEmvol03, SFElshill, SFEtail
 
-Author : Andrija Mihoci
+Author: Andrija Mihoci
+Author[Python]: Justin Hellermann
 
-Submitted : Thu, December 15 2011 by Dedy Dwi Prastyo
+Submitted: Thu, December 15 2011 by Dedy Dwi Prastyo
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
+Datafiles: FSE_LSE.dat
 
-Datafiles : FSE_LSE.dat
+Example: 'Plot of time series of estimated next-day volatility for DAX and FTSE 100 returns.'
 
-Example : Plot of time series of estimated next-day volatility for DAX and FTSE 100 returns.
-
-Code warning : '1: In sqrt(diag(fit$cvar)) : NaNs produced'
+Code warning: 
+- '1: In sqrt(diag(fit$cvar)) : NaNs produced'
 
 ```
 
 ![Picture1](SFEvolgarchest-1.png)
 
+![Picture2](SFEvolgarchest_py.png)
 
-### R Code:
+### R Code
 ```r
+
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
@@ -111,3 +110,94 @@ abline(h = seq(0, 0.05, 0.01), lty = "dotted", lwd = 0.5, col = "grey")
 abline(v = where.put, lty = "dotted", lwd = 0.5, col = "grey")
 
 ```
+
+automatically created on 2019-08-01
+
+### PYTHON Code
+```python
+
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt
+import arch
+from arch import arch_model
+from arch.univariate import GARCH
+from statsmodels.tsa.arima_model import ARMA
+import datetime
+
+ds = pd.read_table("FSE_LSE.dat",header=None)
+date = ds.iloc[:,0]
+
+def log_returns(df):
+	logs=np.log((df.pct_change()+1).dropna())
+	logs=pd.DataFrame(logs)
+	return(logs)
+
+class index_data():
+	def __init__(self):
+		pass
+
+	def feed_data(self,data):
+		self.raw_ts=data
+
+	def fit_ARCH(self,data):#fit ARCH(q)models
+		llhs=[]
+		for q in np.arange(0,15):
+			#return is scaled in order to facilitate convergence
+			self.arch = arch_model(data*100,vol='ARCH',p=1,q=q)
+			self.arch_fit=self.arch.fit(disp='off')
+			llh=self.arch_fit.loglikelihood
+			llhs.append(llh)
+		self.llh=llh
+
+	def fit_ARMA_GARCH(self,data):
+
+		#fit the GARCH with AR term
+		self.garch = arch_model(data*100,vol='GARCH',p=1,q=1,mean='ARX')
+		self.garch_fit = self.garch.fit(disp='off')
+		self.arma_garch_vola=self.garch_fit._volatility
+		
+
+r = log_returns(ds.iloc[:,np.arange(1,42)])
+rdax = r.iloc[:,0]
+rftse = r.iloc[:,21]
+n = ds.shape[0]
+t = np.arange(n)
+
+dax = index_data()
+dax.feed_data(ds.iloc[:,1])
+dax.fit_ARCH(rdax)
+dax.fit_ARMA_GARCH(rdax)
+
+ftse = index_data()
+ftse.feed_data(ds.iloc[:,21])
+ftse.fit_ARCH(rftse)
+ftse.fit_ARMA_GARCH(rftse)
+
+n=ftse.arma_garch_vola.shape[0]
+date_str=[str(d) for d in date]
+
+date_str=[d[:4]+'-'+d[4:6]+'-'+d[6:] for d in date_str]
+dt=[datetime.datetime.strptime(d,'%Y-%m-%d') for d in date_str]
+
+
+fig, ax = plt.subplots(2,1,figsize=(13, 6))
+fig.suptitle('Volatility estimation for DAX and FTSE 100 data')
+ax[0].plot(dt[-n:],dax.arma_garch_vola,label='DAX 30',color='blue')
+ax[0].set_xlabel('t')
+
+ax[0].legend()
+
+ax[1].plot(dt[-n:],ftse.arma_garch_vola,color='blue',label='FTSE 100')
+ax[1].set_xlabel('t')
+ax[1].legend()
+
+fig.suptitle('Volatility estimation for DAX and FTSE 100 data')
+plt.savefig('SFEvolgarchest_py.png')
+plt.show()
+
+
+
+```
+
+automatically created on 2019-08-01

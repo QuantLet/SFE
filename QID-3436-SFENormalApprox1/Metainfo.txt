@@ -4,13 +4,15 @@ Published in: Statistics of Financial Markets
 
 Description: 'Computes numerical approximation to a normal cumulative distribution function (cdf) using method a).'
 
-Keywords: approximation, cdf, distribution, graphical representation, normal, normal-distribution, numeric, plot
+Keywords: 'approximation, cdf, distribution, graphical representation, normal, normal-distribution, numeric, plot'
 
 See also: SFENormalApprox2, SFENormalApprox3, SFENormalApprox3, SFENormalApprox4
 
 Author: Wolfgang K. Haerdle
+Author[Matlab]: Wolfgang K. Haerdle
 
 Submitted: Fri, July 24 2015 by quantomas
+Submitted[Matlab]: Wed, April 27 2016 by Ya Qian
 
 Output: 
 - phi : approximation of Normal cdf at different values

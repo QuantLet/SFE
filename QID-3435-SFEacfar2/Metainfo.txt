@@ -10,6 +10,8 @@ See also: SFEacfar1, SFEacfma1, SFEacfma2, SFElikma1, SFEpacfar2, SFEpacfma2, SF
 
 Author: Joanna Tomanek
 
+Author[Matlab]: Christian Hafner
+
 Submitted: Fri, July 24 2015 by quantomas
 
 Input:

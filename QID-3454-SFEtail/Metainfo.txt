@@ -27,7 +27,10 @@ See also:
 Author:
 - Andrija Mihoci
 - Awdesch Melzer
+Author[Python]:
+- Justin Hellermann
 Submitted: Sun, July 26 2015 by quantomas
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 Datafiles: FSE_LSE.dat
 Example:
 - 'Plots of the tail index regression lines and log observed returns of the DAX index from 1998 to 2007.'

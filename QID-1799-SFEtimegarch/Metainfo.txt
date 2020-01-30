@@ -9,5 +9,7 @@ Keywords: simulation, stochastic-process, process, time-series, plot, graphical 
 See also: SFEtimewn, SFEtimedax
 
 Author: Joanna Tomanek
+Author[Python]: Justin Hellermann
 
 Submitted: Tue, June 17 2014 by Thijs Benschop
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann

@@ -9,8 +9,10 @@ Keywords: conditional mean, conditional variance, interpolation, kernel, Nonpara
 See also: SFEgarchest, SFElshill, SFEmvol01, SFEmvol03, SFEtail, SFEtimeret, SFEvolgarchest
 
 Author: Andrija Mihoci, Maria Osipenko, Awdesch Melzer
+Author[Python]: Justin Hellermann
 
 Submitted: Thu, July 02 2015 by Awdesch Melzer
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Datafiles: FSE_LSE.dat
 

@@ -9,9 +9,9 @@ Keywords: discrete, graphical representation, linear, moving-average, plot, proc
 See also: SFEacfar1, SFEacfar2, SFEacfma2, SFEpacfar2, SFEpacfma2, SFElikgarch, SFElikarch1
 
 Author: Joanna Tomanek, Lasse Groth, WK Härdle
-
+Author[Python]: Justin Hellermann
 Submitted: Tue, June 17 2014 by Thijs Benschop, 20190704 WKH changed the interface, no more dialogue
-
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 Code warning:
 - 'In min(Mod(polyroot(c(1, -model$ar)))) :'
 - no non-missing arguments to min; returning Inf

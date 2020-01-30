@@ -4,5 +4,7 @@ Description: 'Plots the Black implied volatility structure (blue) of LIBOR caple
 Keywords: Black, calibration, caplet, data visualization, financial, graphical representation, implied-volatility, interest-rate, plot, visualization, volatility
 See also: SFEcir, SFEscap, SFEscomCIR, SFEusycplot
 Author: Awdesch Melzer, Li Sun
+Author[Matlab]: Li Sun
 Submitted: Sat, July 18 2015 by quantomas
+Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 Datafiles: cap.txt

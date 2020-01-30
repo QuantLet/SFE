@@ -9,5 +9,7 @@ Keywords: distribution, normal, normal-distribution, simulation, stochastic-proc
 See also: SFEtimegarch, SFEtimedax
 
 Author: Joanna Tomanek
+Author[Python]: Justin Hellermann
 
 Submitted: Fri, June 13 2014 by Felix Jung
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann

@@ -9,8 +9,10 @@ Keywords: data visualization, graphical representation, plot, financial, asset, 
 See also: SFEtimeret, SFEvolnonparest, SFEvolgarchest, SFEmvol01, SFEmvol03, SFEtail
 
 Author: Andrija Mihoci, Awdesch Melzer
+Author[Python]: Justin Hellermann
 
 Submitted: Thu, October 11 2012 by Dedy Dwi Prastyo
+Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Datafiles: FSE_LSE_2014.dat
 

@@ -9,8 +9,9 @@ Keywords: copula, distribution, normal, normal-distribution, uniform, plot, grap
 See also: SFEplotCop, SFEstaticCop, SFEtCop, SFEVaRcopulaSIM2ptv, SFEArchCopDensity, BCS_ClaytonMC, SFEfrechet, SFEgaussCop, SFEresDens, SFEtMC, SFScontourgumbel, SFEgaussCop
 
 Author: Ostap Okhrin
-
+Author[Matlab]: Christian Theel
 Submitted: Mon, November 10 2014 by Felix Jung
+Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 
 Example: 
 - 1: 'Monte Carlo sample of 10.000 realizations of pseudo random variable with uniform marginals in [0,1] with clayton (theta=0.79) dependence structure.'

@@ -1,0 +1,25 @@
+Name of QuantLet : SFEportfolio
+Published in: Statistics of Financial Markets
+Description: 'Produces a PP and a QQ plot of the daily return of the optimal (variance efficient) portfolio'
+Keywords:
+- portfolio
+- financial
+- multivariate normal
+- normal-distribution
+- plot
+- portfolio
+- risk
+See also:
+- SFEclose
+- SFEportlogreturns
+- SFEtailGEV_pp
+- SFEtailGEV_qq
+- SFEtailGPareto_pp
+- SFEvar_block_max_backtesting
+Author:
+- Awdesch Melzer
+Author[Matlab]: 
+- Awdesch Melzer
+Submitted[Matlab]: Fri, November 29 2013 by Awdesch Melzer
+Datafiles: BAYER_close_0012.dat, BMW_close_0012.dat, SIEMENS_close_0012.dat, VW_close_0012.dat
+Example: 'PP and QQ plots of the daily returns of the variance efficient portfolio'
