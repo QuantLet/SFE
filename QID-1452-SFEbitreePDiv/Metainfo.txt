@@ -8,9 +8,11 @@ Keywords: 'binomial, tree, asset, call, put, option, option-price, european-opti
 
 See also: SFEbitreeFDiv, SFEbitreeCDiv, SFSbitreeNDiv
 
-Author: Awdesch Melzer, Ying Chen
+Author: Awdesch Melzer, Ying Chen, Franziska Wehrmann
 
 Author[Matlab]: Ying Chen
+
+Author[Python]: Franziska Wehrmann
 
 Submitted: Tue, December 03 2013 by Awdesch Melzer
 
@@ -31,3 +33,4 @@ Output: binomial trees and price of option
 
 Example: 'User inputs parameters [s0, k, i, sig, t, n, type] like [230, 210, 0.04545, 0.25, 0.5, 5, 1], [flag (1 for call, 0 for put), nodiv, tdiv, pdiv] as [1, 1, 0.15, 0.01], then call price 28.3836 is shown.'
 
+Example[python]: 'Download .py file and run or copy-paste in jupyter notebook. Change variables in MAIN section of script (below definition of fuctions).
