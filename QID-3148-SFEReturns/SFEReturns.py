@@ -4,11 +4,10 @@ import matplotlib.pyplot as plt
 from statsmodels.stats.stattools import jarque_bera
 
 
-data=pd.read_table('sfm_pri.dat',header=None,sep=' ').round(2)
-cols=["all", "allianz", "basf", "bayer", "bmw", "cobank", "daimler", 
-    "deutsche bank", "degussa", "dresdner bank", "hoechst", "karstadt", "linde", 
-    "man", "mannesmann", "preussag", "rwe", "schering", "siemens", "thyssen", 
-    "volkswagen"]
+data=pd.read_table('sfm_pri.dat',header=None,sep='|').round(2)
+cols=["adidas", "allianz", "basf", "bayer", "beiersdorf", "bmw", "continental", "daimler", "dax",  
+    "deutsche bank", "deutsche post", "deutsche telekom", "national grid", "prudential", "reckitt benckiser", 
+    "royal dutch shell", "rio tinto", "standard chartered", "unilever UK", "vodafone"]
 data.columns=cols
 #msg1 = "This program calculates the first order auto correlation of returns, squared returns and absolute returns and skewness, kurtosis and the Bera Jarque statistic for german blue chips, 1974 - 1996"
 #print(msg1)
