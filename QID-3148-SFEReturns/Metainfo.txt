@@ -20,7 +20,7 @@ Author[m]: Andrija Mihoci
 Author[py]: Justin Hellermann
 Submitted[r]: Fri, June 05 2015 by Lukas Borke
 Submitted[m]: Mon, May 02 2016 by Meng Jou Lu
-Submitted[py]: Thu, Aug 01 2019 by Justin Hellermann
+Submitted[py]: Tue, Jan 12 2021 by Maria Culjak
 
 Input[m]:
 - Params: a, b, sigma
