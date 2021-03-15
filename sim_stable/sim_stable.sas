@@ -11,7 +11,7 @@
 * ---------------------------------------------------------------------
 * See also:     Weron R. (1996):Correction to: On the Chambers-Mallows-
 *				Stuck method for simulating skewed stable random variables
-*				 — Res. Rep., Wroclaw University of Technology,Poland.
+*				 â€” Res. Rep., Wroclaw University of Technology,Poland.
 *----------------------------------------------------------------------
 * Keywords:     stable distribution
 *----------------------------------------------------------------------
@@ -39,10 +39,10 @@ pi=constant('pi');
 u=pi*ranuni(0)-pi/2;
 ex=ranexp(1);
 s_a_b=(1+(&beta**2)*(tan(pi*&alpha/2))**2)**(1/(2*&alpha));
-b_a_b=atan(&beta*tan(pi*&alpha/2))/&#945;
+b_a_b=atan(&beta*tan(pi*&alpha/2))/&alpha;
 x=s_a_b*(sin(&alpha*(u+b_a_b)))/(cos(u)**(1/&alpha))*(cos(u-&alpha*(u+b_a_b))/ex)
 **((1-&alpha)/&alpha);
-y=&gamma*x+&#948;
+y=&gamma*x+&delta;
 %mend;
 
 *If alfa=1, then use the following code;
@@ -52,7 +52,7 @@ pi=constant('pi');
 u=pi*ranuni(0)-pi/2;
 ex=ranexp(1);
 x=(2/pi)*(pi/2+&beta*u)*tan(u)-&beta*log(pi/2*ex*cos(u)/(pi/2+&beta*u));
-y=&gamma*x+2/pi*&beta*&gamma*log(&gamma)+&#948;
+y=&gamma*x+2/pi*&beta*&gamma*log(&gamma)+&delta;
 %mend;
 %if &alpha=1 %then %do;
 	data date(keep=y);            
