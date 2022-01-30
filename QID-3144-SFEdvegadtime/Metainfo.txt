@@ -19,5 +19,6 @@ Keywords:
 Author: 
 - Andreas Golle
 - Awdesch Melzer
+Author[Python]: David Schulte
 Submitted: Thu, June 04 2015 by Lukas Borke
 Example: 'User inputs [lower, upper] bound of Asset price S like [50,150], [lower, upper] bound of time to maturity tau like [0.01, 1], then plot of the Vega of a Call option is given.'

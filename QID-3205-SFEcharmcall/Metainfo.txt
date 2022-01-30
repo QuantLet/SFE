@@ -10,6 +10,8 @@ Author: Andreas Golle, Awdesch Melzer
 
 Author[Matlab]: Andreas Golle
 
+Author[Python]: David Schulte
+
 Submitted: Wed, June 10 2015 by Lukas Borke
 
 Input[Matlab]: 'S_min: Lower Bound of Asset Price S,  tau_min: Lower Bound of Time to Maturity tau, S_max: Upper Bound of Asset Price S, tau_max: Upper Bound of Time to Maturity tau' 

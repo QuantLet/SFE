@@ -10,6 +10,8 @@ See also: SFEvanna, SFEvolga, SFEdelta, SFEvega, SFEtheta, SFEspeed, SFEcharmcal
 
 Author: Wolfgang K. Haerdle
 
+Author[Python]: David Schulte
+
 Submitted: Mon, November 24 2014 by Awdesch Melzer
 
 Example: 'For given [lower, upper] bound of Asset price S like [50,150] and [lower, upper] bound of time to maturity tau like [0.01, 1] a plot of the Gamma of a call option is produced.'
