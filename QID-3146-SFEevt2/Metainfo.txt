@@ -8,15 +8,15 @@ Keywords: Frechet, GEV, Weibull, distribution, edf, extreme-value, gumbel, norma
 
 See also: SFEevt1, SFEevt3
 
-Author: Wolfgang K. Haerdle
+Author: Wolfgang K. Haerdle, Konstantin Haeusler
 
 Author [Matlab]: Juergen Franke
 
-Submitted: Fri, June 05 2015 by Lukas Borke
+Submitted: 20220601 by WKH, KH
 
 Input: 
 - n : number of observations
 
 Output: 'Normal plot of the pseudo random variables with Weibull, Frechet and Gumbel distributions.'
 
-Example: 'User inputs the number of observations like 100, then 3 PP Plots of the random distributions are given via the interactive selection menu. The PP line shows the difference of the distributions.'
+Example: 'User inputs the number of observations like 100, then 3 PP Plots of the random distributions may be generated using a selector. The PP line shows the difference of the distributions.'
