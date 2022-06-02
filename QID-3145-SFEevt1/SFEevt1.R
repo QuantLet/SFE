@@ -15,9 +15,10 @@ x     = c(xneg, xpos)
 alpha = 1/2
 
 # Creating 3 types of densities via function "dgev" from package "evd"
-gumb = cbind(x, dgev(x))
-frec = cbind(x, dgev(x, 1, 0.5, alpha))
-weib = cbind(x, dgev(x, -1, 0.5, -alpha))
+   
+gumb = cbind(x, dgev(x,0,0.5,0))
+frec = cbind(x, dgev(x, 0, 0.5, alpha))
+weib = cbind(x, dgev(x, 0, 0.5, -alpha))
 
 # Plot
 plot(weib, type = "l", col = "blue", lwd = 3, lty = 4, xlab = "X", ylab = "Y", main = "Extreme Value Densities")
