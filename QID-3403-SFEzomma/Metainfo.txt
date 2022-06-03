@@ -21,6 +21,7 @@ Author:
 Author[Matlab]: 
 - Ying Chen
 - Christian M. Hafner
+Author[Python]: David Schulte
 Submitted: Sat, July 18 2015 by quantomas
 Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 Example: 'User inputs [lower, upper] bound of Asset price S like [50,150], [lower, upper] bound of time to maturity tau like [0.05, 1], then plot of the Zomma of a call option is given.'

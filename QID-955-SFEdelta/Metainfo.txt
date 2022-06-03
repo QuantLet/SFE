@@ -10,6 +10,7 @@ See also: SFEvanna, SFEvolga, SFEgamma, SFEvega, SFEtheta, SFEspeed, SFEcharmcal
 
 Author: Ying Chen, Christian M. Hafner
 Author[SAS]: Daniel T. Pele
+Author[Python]: David Schulte
 
 Submitted: December 04 2011 by Dedy Dwi Prastyo; Dec 25 2015 by Lukas Borke
 Submitted[Matlab]: December 04 2011 by Dedy Dwi Prastyo; May 19 2016 by Petra Burdejova
