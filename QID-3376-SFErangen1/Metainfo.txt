@@ -4,5 +4,6 @@ Description: 'Generates uniform random numbers using RANDU generator and produce
 Keywords: graphical representation, hyperplain, plot, random, random-number-generation, randu, scatterplot, simulation, uniform
 See also: SFEfibonacci, SFErandu, SFErangen2, SFErangen2
 Author: Awdesch Melzer
+Author[Python]: David Schulte
 Submitted: Thu, July 16 2015 by quantomas
 Example: 'A plot is provided for the following parameter values: n=1000, a=2, b=0, M=11, seed=12.'

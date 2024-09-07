@@ -8,6 +8,8 @@ Keywords: box-muller, distribution, graphical representation, normal-distributio
 
 Author: Brenda López Cabrera
 
+Author[Python]: David Schulte
+
 Submitted: Thu, July 16 2015 by quantomas
 
 Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult

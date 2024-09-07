@@ -4,5 +4,6 @@ Description: 'Generates uniform random numbers using Fibonacci Algorithm and pro
 Keywords: Fibonacci, graphical representation, plot, random, random-number-generation, scatterplot, simulation, uniform
 See also: SFErandu, SFErangen1, SFErangen2
 Author: Wolfgang K. Haerdle
+Author[Python]: David Schulte
 Submitted: Wed, July 22 2015 by quantomas
 Example: 'A plot is generated for the following parameter values: a=1366, b=150889, M=714025, n=10000.'
