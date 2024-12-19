@@ -1,2 +1,0 @@
-# SFE
-Quantnet: SFE quantlets
