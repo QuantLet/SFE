@@ -8,7 +8,7 @@ Keywords: brownian-motion, continuous, graphical representation, plot, process, 
 
 See also: SFEbinomv, SFEbinomv_log
 
-Author: Cindy Lamm, Karel Komorád
+Author: Cindy Lamm, Karel Komorád, Owen Chaffard
 
 Author[Matlab]: J.Budek, K.Komorad
 
