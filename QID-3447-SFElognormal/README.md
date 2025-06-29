@@ -25,6 +25,8 @@ Author: Alexander Ristig
 
 Author [Matlab]: J.Budek, K.Komorad
 
+Author[Python]: K. Weyna
+
 Submitted: Sat, July 25 2015 by quantomas
 
 ```
