@@ -8,7 +8,7 @@ Keywords: brownian-motion, continuous, graphical representation, plot, process, 
 
 See also: SFEWienerProcess, SFSwiener1, SFSwiener2, SFSwiener3
 
-Author: Anton Andriyashin, Roman Timofeev
+Author: Anton Andriyashin, Roman Timofeev, Patricia Evite  
 
 Submitted: Fri, June 13 2014 by Felix Jung
 
