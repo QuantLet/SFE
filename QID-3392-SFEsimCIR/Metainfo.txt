@@ -11,7 +11,7 @@ Keywords: cir, simulation, normal, plot, graphical representation
 
 See also: SFEscomCIR
 
-Author: Awdesch Melzer, Piedad Castro
+Author: Awdesch Melzer, Piedad Castro, Andrei-Theodor Ginavar
 
 Submitted: Thu, July 07 2016 by Piedad Castro
 
