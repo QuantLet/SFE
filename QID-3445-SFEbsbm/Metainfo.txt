@@ -10,9 +10,13 @@ See also: SFSbb
 
 Author: Awdesch Melzer, Franziska Schulz
 
+Author[Python]: Andrei-Theodor Ginavar
+
 Author[Matlab]: Szymon Borak
 
 Submitted: Tue, July 01 2014 by Petra Burdejova
+
+Updated: 07/07/2025 by ATG
 
 Output: 'Plot of the Call Black-Scholes price as a function of a Brownian Motion S_t.'
 
