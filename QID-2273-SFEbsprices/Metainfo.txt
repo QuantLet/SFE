@@ -12,7 +12,10 @@ Author: Szymon Borak, Elisabeth Bommes
 
 Author[Matlab]: Szymon Borak, Awdesch Melzer
 
+Author[Python]: Karolina Weyna
+
 Submitted: Tue, June 17 2014 by Thijs Benschop
+Updated: Tue, July 15, 2025 
 
 Example: 
 - 1: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau = 0.6 and sigma = 0.15.'

@@ -41,4 +41,3 @@ Submitted: Sat, July 25 2015 by quantomas
 <div align="center">
 <img src="https://raw.githubusercontent.com/QuantLet/SFE/master/QID-3447-SFElognormal/SFElognormal.png" alt="Image" />
 </div>
-
