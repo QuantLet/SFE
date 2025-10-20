@@ -8,14 +8,9 @@ Keywords: 'binomial, tree, asset, call, put, option, option-price, european-opti
 
 See also: SFEbitreeFDiv, SFEbitreeCDiv, SFSbitreeNDiv
 
-Author[R]: Awdesch Melzer, Ying Chen
+Author: Awdesch Melzer, Ying Chen, Franziska Wehrmann
 
-Author[Matlab]: Ying Chen
-
-Author[Python]: Franziska Wehrmann
-
-Submitted[R]: Tue, December 03 2013 by Awdesch Melzer
-Submitted[Python]: Thu, January 30 2020 by Franziska Wehrmann
+Submitted: Thu, January 30 2020 by Franziska Wehrmann
 
 
 Input: 
