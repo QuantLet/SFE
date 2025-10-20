@@ -14,9 +14,9 @@ See also: 'BaseCorrGaussModelCDO, CompCorrGaussModelCDO, ETL, SFEETLGaussTr1,
            SFEbaseCorr, SFEcompCorr, SFEcompCorr, SFEdefaproba, SFEmyfun, 
            lowerTrLossGauss'              
 
-Author[Matlab]: Song Song, Maria Feld
+Author: Song Song, Maria Feld
 
-Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
+Submitted: Thu, April 28 2016 by Ya Qian
 
 Datafile[Matlab]: SFEMoodydefault.xlsx
 
