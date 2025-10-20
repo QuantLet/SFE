@@ -24,15 +24,9 @@ See also:
 - SFEacfma1
 - SFEpacfma2
 
-Author[R]: Joanna Tomanek
-Author[Matlab]: Ying Chen, Christian M. Hafner, Lasse Groth
-Author[SAS]: Daniel T. Pele
-Author[Python]: Justin Hellermann
+Author: Joanna Tomanek, Ying Chen, Christian M. Hafner, Lasse Groth, Daniel T. Pele, Justin Hellermann
 
-Submitted[R]: Mon, June 08 2015 by Lukas Borke
-Submitted[Matlab]: Tue, January 19 2010 by Lasse Groth
-Submitted[SAS]: Tue, June 17 2014 by Sergey Nasekin
-Submitted[Python]: Justin Hellermann
+Submitted: Mon, June 08 2015 by Lukas Borke
 
 Input:
 - beta1: value of beta_1
