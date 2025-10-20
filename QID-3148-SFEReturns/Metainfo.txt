@@ -15,12 +15,9 @@ Keywords:
 - skewness
 - statistics
 - test
-Author[r]: Joanna Tomanek
-Author[m]: Andrija Mihoci
-Author[py]: Justin Hellermann
-Submitted[r]: Fri, June 05 2015 by Lukas Borke
-Submitted[m]: Mon, May 02 2016 by Meng Jou Lu
-Submitted[py]: Tue, Jan 12 2021 by Maria Culjak
+Author: Joanna Tomanek, Andrija Mihoci, Justin Hellermann
+
+Submitted: Tue, Jan 12 2021 by Maria Culjak
 
 Input[m]:
 - Params: a, b, sigma
