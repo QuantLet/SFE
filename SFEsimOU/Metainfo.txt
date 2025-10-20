@@ -7,8 +7,8 @@ Keywords:
 - stochastic-process
 - simulation
 - monte-carlo
-Author[Matlab]: Torsten Kleinow
-Submitted[Matlab]: Sat, November 10 2012 by Dedy Dwi Prastyo
+Author: Torsten Kleinow
+Submitted: Sat, November 10 2012 by Dedy Dwi Prastyo
 Input[Matlab]:
 - Params: num. of obs., beta, gamma, mean
 Example: 'Plot of a simulated Ornstein-Uhlenbeck process'
