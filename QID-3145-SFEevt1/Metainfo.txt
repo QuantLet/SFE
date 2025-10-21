@@ -12,6 +12,6 @@ Author: Zografia Anastasiadou, Konstantin Haeusler
 
 Author [Matlab]: Juergen Franke
 
-Submitted: 20220602 WKH
+Submitted: 2022.06.02 WKH
 
 Example: 'Gumbel distribution (solid line), Frechet distribution with parameter alpha=1/2 (dotted line) and Weibull distribution with parameter alpha=-1/2 (dash-dot line).'
