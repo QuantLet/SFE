@@ -17,6 +17,8 @@ See also: SFEevt2, SFEevt2, SFEevt3
 
 Author: Zografia Anastasiadou, Konstantin Haeusler
 
+Author [Python]: Andrei Theodor Ginavar
+
 Author [Matlab]: Juergen Franke
 
 Submitted: 20220602 WKH
