@@ -5,11 +5,9 @@
 </div>
 
 ```
-﻿Name of QuantLet: SFEBSCopt2
-
 Published in: Statistics of Financial Markets
 
-Description: Computes the Black-Scholes price of a European call option. Optionally,
+Description: Computes the Black-Scholes price of a European call option. Optionally, option parameters may be given interactively as user input.
 
 Keywords: asset, black-scholes, call, european-option, financial, option, option-price, normal approximation, normal-distribution, option
 
