@@ -24,7 +24,7 @@ Author[SAS]: Daniel T. Pele
 Submitted: Tue, June 17 2014 by Franziska Schulz
 
 Input: 
-- method : 'type of method used: 1 - direct integration, 2 - Euler scheme
+- method : 'type of method used: 1 - direct integration, 2 - Euler scheme'
 
 Example: A plot of typical path of a geometric brownian motion is provided for the case n=1, x0=0.084, mu=0.02, sigma=sqrt(0.1) delta=1/1000.
 
