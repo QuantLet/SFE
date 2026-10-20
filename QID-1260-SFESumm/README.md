@@ -9,7 +9,7 @@ Name of QuantLet: SFESumm
 
 Published in: Statistics of Financial Markets
 
-Description: Produces a plot and summary statistics for DAX monthly
+Description: Produces a plot and summary statistics for DAX monthly log-returns from July 2004 to May 2014.
 
 Keywords: kurtosis, returns, skewness, statistics, summary, time-series, volatility
 
@@ -21,7 +21,7 @@ Submitted: Fri, June 17 2016 by Piedad Castro
 
 Datafile: 2004-2014_dax_ftse.csv
 
-Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for selected companies which are part of DAX30 and FTSE100 as well as the corresponding index data. This code makes only use of the date and DAX variables.
 
 ```
 <div align="center">
