@@ -20,8 +20,8 @@ Author: Awdesch Melzer
 Submitted: Wed, April 23 2014 by Awdesch Melzer
 
 Code warning: 
-- 'In fminbnd(function(x) CompCorrGaussModelCDO(x, recoveryR, defProb, :
-- 'No. of max. iterations exceeded; no convergence reached.
+- In fminbnd(function(x) CompCorrGaussModelCDO(x, recoveryR, defProb, :
+- No. of max. iterations exceeded; no convergence reached.
 
 ```
 <div align="center">
