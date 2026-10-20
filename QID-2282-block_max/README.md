@@ -9,7 +9,7 @@ Name of QuantLet: block_max
 
 Published in: Statistics of Financial Markets
 
-Description: Provides Value at Risk estimates computed with Block Maxima Model
+Description: Provides Value at Risk estimates computed with Block Maxima Model with generalized extreme value.
 
 Keywords: VaR, backtesting, block-maxima, portfolio, returns
 
