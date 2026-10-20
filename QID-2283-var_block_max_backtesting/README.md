@@ -9,7 +9,7 @@ Name of QuantLet: var_block_max_backtesting
 
 Published in: Statistics of Financial Markets
 
-Description: tests back VaR estimate results "var" from block_max routine in a observation window h (e.g 250)
+Description: tests back VaR estimate results "var" from block_max routine in a observation window h (e.g 250) for the portfolio "x" and gives VaR estimates and outliers.
 
 Keywords: VaR, GEV, backtesting, block-maxima, portfolio, returns
 
