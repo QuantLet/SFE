@@ -9,7 +9,7 @@ Name of QuantLet: SFEdynCop2dim
 
 Published in: Statistics of Financial Markets
 
-Description: plots the time series from estimated dependence parameter for
+Description: plots the time series from estimated dependence parameter for the copula families Gaussian, Gumbel and Clayton. The dependence parameter is estimated using the IFM method. The empirical residuals are calculated using moving window of size 250
 
 Keywords: garch, copula, plot, normal, gumbel, clayton, Kendalls Tau, dynamic
 
@@ -19,7 +19,7 @@ Author: Ostap Okhrin, Piedad Castro
 
 Submitted: Tue, June 28 2016 by Piedad Castro
 
-Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for selected companies which are part of DAX30 and FTSE100 as well as the corresponding index data. This code makes use of the daily prices for the Deutsche Telekom and Volkswagen. It uses the date variable as well.
 
 Output: Plot: Dependence parameter of Clayton (upper panel) and Gumbel (lower panel) copulae.
 
