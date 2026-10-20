@@ -15,15 +15,9 @@ Keywords: binomial, tree, asset, call, put, option, option-price, european-optio
 
 See also: SFEbitreeFDiv, SFEbitreePDiv, SFSbitreeNDiv
 
-Author[R]: Awdesch Melzer, Ying Chen
+Author: Awdesch Melzer, Ying Chen, Franziska Wehrmann
 
-Author[Matlab]: Ying Chen
-
-Author[Python]: Franziska Wehrmann
-
-Submitted[R]: Tue, June 17 2014 by Thijs Benschop
-
-Submitted[Python]: Thu, January 30 2020 by Franziska Wehrmann
+Submitted: Thu, January 30 2020 by Franziska Wehrmann
 
 Input: 
 - i : Interest Rate
