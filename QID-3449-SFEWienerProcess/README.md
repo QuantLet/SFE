@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: SFEWienerProcess
-
 Published in: Statistics of Financial Markets
 
 Description: Generates and plots 5 paths of a Wiener process with c=1, delta_t=0.5.
