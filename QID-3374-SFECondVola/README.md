@@ -9,7 +9,7 @@ Name of QuantLet: SFECondVola
 
 Published in: Statistics of Financial Markets
 
-Description: Plots conditional volatility forecasts for log-returns of FTSE and DAX stocks (Bayer, Siemens and Volkswagen)
+Description: Plots conditional volatility forecasts for log-returns of FTSE and DAX stocks (Bayer, Siemens and Volkswagen) based on the Fractional Integrated Asymmetric Power ARCH (FIAPARCH, blue) model and the Hyperbolic-GARCH (HYGARCH, red) model.
 
 Keywords: 
 - arch
