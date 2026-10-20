@@ -9,11 +9,11 @@ Name of Quantlet: ETL
 
 Published in: Statistics of Financial Markets
 
-Description: Claculates expected loss of the equity tranche using the one factor Gaussian model
+Description: Claculates expected loss of the equity tranche using the one factor Gaussian model with one-year default probability computed from the iTraxx index Series 8 with 5 years maturity on 20071022. Package pracma for numerical integration is required.
 
-Keywords: Expected loss, default, Credit Risk, Equity tranche, multivariate normal, Gauss Kronrod,
+Keywords: Expected loss, default, Credit Risk, Equity tranche, multivariate normal, Gauss Kronrod, numerical integration, integration, normal, gaussian, asset, financial, plot, graphical representation
 
-See also: SFEbaseCorr, SFEcompCorr, ETL, lowerTrLossGauss, BaseCorrGaussModelCDO, SFEdefault,
+See also: SFEbaseCorr, SFEcompCorr, ETL, lowerTrLossGauss, BaseCorrGaussModelCDO, SFEdefault, SFEmyfun, CompCorrGaussModelCDO, SFEPortfolioLossDensity, SFEgaussCop, SFEETLGaussTr1
 
 Author: Awdesch Melzer
 
