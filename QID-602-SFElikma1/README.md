@@ -24,7 +24,7 @@ Submitted: Tue, June 17 2014 by Thijs Benschop, 20190704 WKH changed the interfa
 Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 
 Code warning: 
-- 'In min(Mod(polyroot(c(1, -model$ar)))) :
+- In min(Mod(polyroot(c(1, -model$ar)))) :
 - no non-missing arguments to min; returning Inf
 
 Input: 
