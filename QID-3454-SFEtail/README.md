@@ -50,8 +50,8 @@ Submitted[Python]: Thu, Aug 01 2019 by Justin Hellermann
 Datafiles: FSE_LSE.dat
 
 Example: 
-- 'Plots of the tail index regression lines and log observed returns of the DAX index from 1998 to 2007.
-- 'Plots of the tail index regression lines and log observed returns of the FTSE 100 index from 1998 to 2007.
+- Plots of the tail index regression lines and log observed returns of the DAX index from 1998 to 2007.
+- Plots of the tail index regression lines and log observed returns of the FTSE 100 index from 1998 to 2007.
 
 ```
 <div align="center">
