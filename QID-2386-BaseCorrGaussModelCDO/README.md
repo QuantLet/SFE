@@ -28,7 +28,7 @@ Input:
 - R (scalar) : recovery rate of security
 - defProb (scalar) : default probability
 - UAP (scalar) : upper attachment point of CDO tranche
-- LAP (scalar) : 'lower attachment point of CDO tranche (also: detachment point)
+- LAP (scalar) : 'lower attachment point of CDO tranche (also: detachment point)'
 - DF (scalar) : discount factor
 - DayCount (vector) : weights
 - trueSpread (scalar) : true spread
