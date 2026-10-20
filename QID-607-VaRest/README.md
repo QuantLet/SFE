@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: VaRest
-
 Published in: Statistics of Financial Markets
 
 Description: External function for estimating the value at risk(VaR).
