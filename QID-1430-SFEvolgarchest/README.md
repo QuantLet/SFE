@@ -28,7 +28,7 @@ Datafiles: FSE_LSE.dat
 Example: Plot of time series of estimated next-day volatility for DAX and FTSE 100 returns.
 
 Code warning: 
-- '1: In sqrt(diag(fit$cvar)) : NaNs produced
+- 1: In sqrt(diag(fit$cvar)) : NaNs produced
 
 ```
 <div align="center">
