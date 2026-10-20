@@ -20,14 +20,14 @@ Author: Daniel T. Pele
 Submitted: Wed, November 30, 2016 by Lusine Nazaretyan
 
 Input: 
--delta: location parameter
--alpha: stability index
--n: number of observations
--beta: skewness parameter
--gamma: scale parameter
+- delta: location parameter
+- alpha: stability index
+- n: number of observations
+- beta: skewness parameter
+- gamma: scale parameter
 
 Output: 
--data: SAS dataset containing the simulated variable y
+- data: SAS dataset containing the simulated variable y
 
 Example: ‚An example is generated for a simulated stable distribution S(alpha=1.5, beta=0, delta=0, gamma=1)‘
 
