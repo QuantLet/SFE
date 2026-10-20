@@ -9,7 +9,7 @@ Name of QuantLet: SFEresDens
 
 Published in: Statistics of Financial Markets
 
-Description: Plots the Kernel density estimator of the residuals and
+Description: Plots the Kernel density estimator of the residuals and of the normal density for the log-returns of the Deutsche Telekom and Volkswagen from  10.05.2004 to 07.05.2014,
 
 Keywords: Quartic, copula, density, garch, normal, kernel
 
@@ -19,7 +19,7 @@ Author: Ostap Okhrin, Piedad Castro
 
 Submitted: Thu, June 30 2016 by Piedad Castro
 
-Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for selected companies which are part of DAX30 and FTSE100 as well as the corresponding index data. This code makes use of the daily prices for the Deutsche Telekom and Volkswagen.
 
 ```
 <div align="center">
