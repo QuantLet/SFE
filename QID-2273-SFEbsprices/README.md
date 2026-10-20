@@ -22,8 +22,8 @@ Author[Matlab]: Szymon Borak, Awdesch Melzer
 Submitted: Tue, June 17 2014 by Thijs Benschop
 
 Example: 
-- 1: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau = 0.6 and sigma = 0.15.
-- 2: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau2 = 0.03 and sigma2 = 0.3.
+- 1: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau = 0.6 and sigma = 0.15.'
+- 2: 'The plot is generated for the following parameter values: S = 100, K = 100, r = 0.1, tau2 = 0.03 and sigma2 = 0.3.'
 
 ```
 <div align="center">
