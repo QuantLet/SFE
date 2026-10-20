@@ -9,7 +9,7 @@ Name of QuantLet: var_pot
 
 Published in: Statistics of Financial Markets
 
-Description: Provides Value at Risk estimates computed with Peaks Over
+Description: Provides Value at Risk estimates computed with Peaks Over Treshold model with generalized Pareto distribution.
 
 Keywords: POT, VaR, pareto, portfolio, returns, backtesting
 
