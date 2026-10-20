@@ -9,7 +9,7 @@ Name of QuantLet: SFEsimCIR2
 
 Published in: Statistics of Financial Markets
 
-Description: Simulates instataneous short rates using the Cox-Ingersol-Ross
+Description: Simulates instataneous short rates using the Cox-Ingersol-Ross process. It also plots these simulated rates versus time.
 
 Keywords: cir, simulation, normal, plot, interest-rate
 
