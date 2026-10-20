@@ -9,7 +9,7 @@ Name of QuantLet: SFESignal
 
 Published in: Statistics of Financial Markets
 
-Description: Simulates signal S_t = 2 * cos {2 * pi * (t / 50) + 0.6 * pi},
+Description: Simulates signal S_t = 2 * cos {2 * pi * (t / 50) + 0.6 * pi}, with epsilon_1 ~ N(0,1) and epsilon_2 ~ N(0,25) and plots the results
 
 Keywords: time-series, spectral, simulation, plot, spectral-decomposition
 
