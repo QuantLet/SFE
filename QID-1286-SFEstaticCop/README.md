@@ -9,7 +9,7 @@ Name of QuantLet: SFEstaticCop
 
 Published in: Statistics of Financial Markets
 
-Description: plots the contour of the Gumbel, Clayton and Normal copula. These
+Description: plots the contour of the Gumbel, Clayton and Normal copula. These copulae are based on Normal margins. The fitted, empirical residuals are included in the plot as red dots.
 
 Keywords: garch, copula, plot, normal, gumbel, clayton, Kendalls Tau,  density, distribution
 
@@ -19,7 +19,7 @@ Author: Ostap Okhrin, Piedad Castro
 
 Submitted: Wed, June 29 2016 by Piedad Castro
 
-Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for selected companies which are part of DAX30 and FTSE100 as well as the corresponding index data. This code makes use of the daily prices for the Deutsche Telekom and Volkswagen.
 
 ```
 <div align="center">
