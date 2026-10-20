@@ -24,8 +24,8 @@ Submitted: Mon, November 10 2014 by Felix Jung
 Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 
 Example: 
-- 1: 'Monte Carlo sample of 10.000 realizations of pseudo random variable with uniform marginals in [0,1] with clayton (theta=0.79) dependence structure.
-- 2: 'Monte Carlo sample of 10.000 realizations of pseudo random variable with standard normal marginals with clayton (theta=0.79) dependence structure.
+- 1: 'Monte Carlo sample of 10.000 realizations of pseudo random variable with uniform marginals in [0,1] with clayton (theta=0.79) dependence structure.'
+- 2: 'Monte Carlo sample of 10.000 realizations of pseudo random variable with standard normal marginals with clayton (theta=0.79) dependence structure.'
 
 ```
 <div align="center">
