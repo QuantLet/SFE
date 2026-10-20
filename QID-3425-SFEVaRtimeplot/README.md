@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: SFEVaRtimeplot
-
 Published in: Statistics of Financial Markets
 
 Description: Shows the time plot of the Value at Risk (VaR) forecasts and the associated changes of the Profit & Loss (P&L) of the portfolio for Rectangular Moving Average (RMA) and Exponentially Moving Average (EMA) models.
