@@ -9,13 +9,13 @@ Name of QuantLet: SFEsimCIR
 
 Published in: Statistics of Financial Markets
 
-Description: Simulates a Cox-Ingersol-Ross process and plots
+Description: Simulates a Cox-Ingersol-Ross process and plots it. The number of observations to be simulated as well as the parameters of the CIR model can be set by the user. The initial value is assumed as the mean, but it can be set by the user as well.
 
 Keywords: cir, simulation, normal, plot, graphical representation
 
 See also: SFEscomCIR
 
-Author: Awdesch Melzer, Piedad Castro
+Author: Awdesch Melzer, Piedad Castro, Andrei-Theodor Ginavar
 
 Submitted: Thu, July 07 2016 by Piedad Castro
 
