@@ -22,12 +22,12 @@ Submitted: Mon, June 21 2010 by Alexander Ristig
 Datafiles: Representative_Data.txt, Stocks_Series.txt, params.cop.txt
 
 Example: 
-- 1: 'Dependence parameter of Gaussian (upper panel), Clayton (middle panel) and Gumbel (lower panel) copulae.
-- 2: 'Dependence parameter of Clayton (upper panel) and Gumbel (lower panel) copulae.
+- 1: 'Dependence parameter of Gaussian (upper panel), Clayton (middle panel) and Gumbel (lower panel) copulae.'
+- 2: 'Dependence parameter of Clayton (upper panel) and Gumbel (lower panel) copulae.'
 
 Code warning: 
-- 1: 'There were 50 or more warnings (use warnings() to see the first 50)
-- 2: '1: In sqrt(diag(fit$cvar)) : NaNs produced
+- 1: 'There were 50 or more warnings (use warnings() to see the first 50)'
+- 2: '1: In sqrt(diag(fit$cvar)) : NaNs produced'
 
 ```
 <div align="center">
