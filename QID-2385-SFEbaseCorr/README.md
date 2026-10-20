@@ -24,8 +24,8 @@ Submitted: Wed, April 23 2014 by Awdesch Melzer
 Submitted[Matlab]: Fri, November 22 2013 by Awdesch Melzer
 
 Code warning: 
-- 'In fminbnd(function(x) BaseCorrGaussModelCDO(x, recoveryR, defProb, :
-- 'No. of max. iterations exceeded; no convergence reached.
+- In fminbnd(function(x) BaseCorrGaussModelCDO(x, recoveryR, defProb, :
+- No. of max. iterations exceeded; no convergence reached.
 
 ```
 <div align="center">
