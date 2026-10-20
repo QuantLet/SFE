@@ -20,8 +20,8 @@ Submitted: Tue, July 05 2011 by Maria Osipenko
 Example: Plots of ARFIMA(AR,MA,d) (top) and ARFIMA(AR,MA,-d) (bottom) models.
 
 Code warning: 
-- 1: 'In fracdiff.sim(N, AR, MA, d1) :
-- 2: 'ar-part of fracdiff model is not stationary!!
+- 1: 'In fracdiff.sim(N, AR, MA, d1) :'
+- 2: 'ar-part of fracdiff model is not stationary!!'
 
 ```
 <div align="center">
