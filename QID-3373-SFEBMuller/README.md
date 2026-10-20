@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: SFEBMuller
-
 Published in: Statistics of Financial Markets
 
 Description: Transforms uniformly distributed random variables to sets of independent standard normally distributed random numbers using the Box Muller algorithm.
@@ -19,7 +17,7 @@ Submitted: Thu, July 16 2015 by quantomas
 
 Submitted[Matlab]: Tue, May 17 2016 by Christoph Schult
 
-Example: The scatterplot of two sets of independent standard normally distributed random numbers is displayed and the mean
+Example: The scatterplot of two sets of independent standard normally distributed random numbers is displayed and the mean and variance are calculated for two distributions, each containing n=10000 elements.
 
 ```
 <div align="center">
