@@ -5,8 +5,6 @@
 </div>
 
 ```
-﻿Name of QuantLet: SFEclt
-
 Published in: Statistics of Financial Markets
 
 Description: Illustrates the (univariate) Central Limit Theorem (CLT). n*1000 sets of n-dimensional Bernoulli samples are generated and used to approximate the distribution of t = sqrt(n)*(mean(x)-mu)/sigma -> N(0,1). The estimated density (red) of t is shown together with the standard normal (green).
