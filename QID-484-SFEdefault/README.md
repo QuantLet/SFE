@@ -13,7 +13,7 @@ Description: Calculates the historical mean and volatility of default rate bonds
 
 Keywords: default rate, regression, volatility, asset correlation
 
-See also: BaseCorrGaussModelCDO, CompCorrGaussModelCDO, ETL, SFEETLGaussTr1,
+See also: BaseCorrGaussModelCDO, CompCorrGaussModelCDO, ETL, SFEETLGaussTr1, SFEbaseCorr, SFEcompCorr, SFEcompCorr, SFEdefaproba, SFEmyfun, lowerTrLossGauss
 
 Author: Song Song, Maria Feld
 
@@ -21,7 +21,7 @@ Submitted: Thu, April 28 2016 by Ya Qian
 
 Datafile[Matlab]: SFEMoodydefault.xlsx
 
-Output: Historical mean of default rate, default rate volatility, the corresponding
+Output: Historical mean of default rate, default rate volatility, the corresponding regression by exponential function fitting and the estimated one-factor model asset correlation.
 
 ```
 <div align="center">
