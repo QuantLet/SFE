@@ -30,7 +30,7 @@ Input:
 Example: An example is produced for beta=0.5, n1=10 and n2=20.
 
 Code warning: 
-- 1: 'In min(Mod(polyroot(c(1, -model$ar)))) :
+- 1: 'In min(Mod(polyroot(c(1, -model$ar)))) :'
 - 2: no non-missing arguments to min; returning Inf
 
 ```
