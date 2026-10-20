@@ -43,9 +43,9 @@ Input:
 - beta_2: value of beta_2
 - lag: lag value
 
-Example: Plots the ACF of a MA(2) process with beta1=0.5, beta2=0.4 (top left), beta1=0.5, beta2=-0.4 (top right),
+Example: Plots the ACF of a MA(2) process with beta1=0.5, beta2=0.4 (top left), beta1=0.5, beta2=-0.4 (top right), beta1=-0.5, beta2=0.4 (bottom left) and beta1=-0.5, beta2=-0.4 (bottom right).
 
-Example[Matlab]: User inputs the SFEacfma2 parameters [lag, beta1, beta2] as [30, 0.5, 0.4].
+Example[Matlab]: User inputs the SFEacfma2 parameters [lag, beta1, beta2] as [30, 0.5, 0.4]. Plots of the autocorrelation function of MA(2) processes with [β1,β2] = [+/- 0.5, +/- 0.4] are given.
 
 ```
 <div align="center">
