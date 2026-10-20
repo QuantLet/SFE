@@ -9,7 +9,7 @@ Name of QuantLet: SFE5dim
 
 Published in: Statistics of Financial Markets
 
-Description: Displays scatterplots from GARCH residuals (upper triangular) and
+Description: Displays scatterplots from GARCH residuals (upper triangular) and from residuals mapped on unit square by the cumulative distribution function (lower triangular).
 
 Keywords: cdf, data visualization, garch, graphical representation, plot, process, scatterplot, stochastic, stochastic-process, time-series, visualization
 
@@ -21,7 +21,7 @@ Submitted: Fri, June 24 2016 by Piedad Castro
 
 Datafiles: 2004-2014_dax_ftse.csv
 
-Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for
+Input: The datafile contains daily price data from 07.05.2004 to 07.05.2014 for selected companies which are part of DAX30 and FTSE100 as well as the corresponding index data. This code makes use of the daily prices for the companies Bayer, Deutsche Telekom and Volkswagen.
 
 ```
 <div align="center">
