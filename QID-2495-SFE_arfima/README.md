@@ -18,10 +18,10 @@ Author: Daniel T. Pele
 Submitted: Wed, November 30, 2016 by Lusine Nazaretyan
 
 Input: 
--d: fractionally differencing parameter (long memory)
--AR: coefficients of the AR polynomial
--N: Length of the generated time series
--MA: coefficients of the MA polynomial
+- d: fractionally differencing parameter (long memory)
+- AR: coefficients of the AR polynomial
+- N: Length of the generated time series
+- MA: coefficients of the MA polynomial
 
 Example: ‚Plot two examples with n1=1000, n2=1000, d1=0.4, d2=-04  p = q = 1, AR = {1}, MA = {1}‘
 
