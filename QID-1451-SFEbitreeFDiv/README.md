@@ -38,6 +38,6 @@ Output: binomial trees and price of option
 
 Example: User inputs parameters [s0, k, i, sig, t, n, type] like [230, 210, 0.04545, 0.25, 0.5, 5, 1], [flag (1 for call, 0 for put), nodiv, tdiv, pdiv] as [1, 2, 0.25, 0.25, 1, 1], then call price is shown.
 
-Example[Matlab]: User inputs the SFEbitreeCDiv parameters
+Example[Matlab]: User inputs the SFEbitreeCDiv parameters [s0, k, i, sig, t, n, type] like [230, 210, 0.04545, 0.25, 0.5, 5, 1], [flag (1 for call, 0 for put), nodiv, tdiv, pdiv] as [1, 2, 0.25, 0.25, 1, 1], then call price 28.7679 is shown.
 
 ```
