@@ -22,8 +22,8 @@ Submitted: Wed, August 07 2013 by Awdesch Melzer
 Datafiles: kredit.dat
 
 Example: 
-- 1: 'The scatter plot of the transferred variables: level of credit and age of the customers.
-- 2: 'The estimated function with respect to level of credit and age of the customers.
+- 1: 'The scatter plot of the transferred variables: level of credit and age of the customers.'
+- 2: 'The estimated function with respect to level of credit and age of the customers.'
 
 ```
 <div align="center">
