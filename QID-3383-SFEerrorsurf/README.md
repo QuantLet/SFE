@@ -24,8 +24,8 @@ Submitted: Thu, July 16 2015 by quantomas
 Submitted[Matlab]: Tue, August 30 2016 by Xiu Xu
 
 Example: 
-- 'Error surface of Q(w) with sigmoid function as activation function.
-- 'Error surface of Q(w) with threshold function as activation function.
+- Error surface of Q(w) with sigmoid function as activation function.
+- Error surface of Q(w) with threshold function as activation function.
 
 ```
 <div align="center">
