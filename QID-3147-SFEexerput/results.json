@@ -1,0 +1,56 @@
+{
+  "parameters": {
+    "capital": 100000.0,
+    "floor": 95000.0,
+    "spot": 100.0,
+    "rate": 0.1,
+    "volatility": 0.3,
+    "dividend_yield": 0.02,
+    "tau": 2.0
+  },
+  "strike": 99.55992695013713,
+  "put_price": 8.720979190175186,
+  "protected_units": 954.199173404166,
+  "prepaid_stock_cost_per_unit": 96.07894391523232,
+  "initial_portfolio_cost": 100000.0,
+  "minimum_terminal_value": 95000.0,
+  "equation_residual": 0.0,
+  "convergence": [
+    {
+      "iteration": 0,
+      "strike": 0.001,
+      "put": 2.5633893791120818e-169,
+      "residual": 96.07789128365337
+    },
+    {
+      "iteration": 1,
+      "strike": 91.2749967194707,
+      "put": 6.066433705055555,
+      "residual": 6.066433705055559
+    },
+    {
+      "iteration": 2,
+      "strike": 99.21002743188507,
+      "put": 8.598150958057175,
+      "residual": 0.2454870502525779
+    },
+    {
+      "iteration": 3,
+      "strike": 99.55926292044252,
+      "put": 8.720745206595733,
+      "residual": 0.00046499504645680645
+    },
+    {
+      "iteration": 4,
+      "strike": 99.55992694773977,
+      "put": 8.720979189330428,
+      "residual": 1.6787709000709583e-09
+    },
+    {
+      "iteration": 5,
+      "strike": 99.55992695013713,
+      "put": 8.720979190175186,
+      "residual": 0.0
+    }
+  ]
+}
