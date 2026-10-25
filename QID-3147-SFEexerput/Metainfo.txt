@@ -1,31 +1,40 @@
-Name of QuantLet : SFEexerput 
+Name of QuantLet : SFEexerput
 
 Published in: Statistics of Financial Markets
 
-Description: 'Calculates the exercise price applying Newton''s method and gets the put option price using the Black Scholes model.'
+Description: 'Calculates the exercise price applying Newton''s method and prices a European put using the Black-Scholes model with continuous dividends. The Python version adds safeguarded Newton iterations, independent bisection and portfolio identity checks, transparent plots, convergence and terminal payoff tables, and full-precision JSON results.'
 
-Keywords: 'Newton, black-scholes, european-option, exercise-price, financial, option, option-price, put'
+Keywords: 'Newton, black-scholes, european-option, exercise-price, financial, option, option-price, put, python, portfolio-insurance, protective-put, visualization'
 
 Author: Ying Chen
 Author[Matlab]: Yanwu Wang, Ying Chen
 Author[SAS]: Daniel T. Pele
+Author[Python]: 'OpenAI Codex, adapted from the original algorithm by Ying Chen'
 
 Submitted: Fri, June 05 2015 by Lukas Borke
 Submitted[Matlab]: Thu, April 28 2016 by Ya Qian
 Submitted[SAS]: Thu, April 24 2014 by Petra Burdejova
+Submitted[Python]: Sun, October 25 2026 by haerdle with OpenAI Codex
 
 Input:
-- t0 : Spot Date
-- V : Capital
-- F : Floor
-- T : Expiration Date
-- s0 : Spot Stock Price
-- r : Continuous Interest Rate
-- sig : Volatility
-- d : Continuous Dividend
+- t0 : Spot date
+- V : Initial capital (Python Parameters.capital)
+- F : Guaranteed terminal floor (Python Parameters.floor)
+- T : Expiration date; Python Parameters.tau is T minus t0, in years
+- s0 : Spot stock price (Python Parameters.spot)
+- r : Annual continuously compounded risk-free rate (Python Parameters.rate)
+- sig : Annual volatility (Python Parameters.volatility)
+- d : Annual continuous dividend yield (Python Parameters.dividend_yield)
 
 Output:
-- k : Exercise Price applying Newton Method
-- pk : BS Put Option Price
+- k : Exercise price applying Newton method
+- pk : Black-Scholes European put price at the solved strike
+- protected_units : Number of protected terminal share units, F divided by k
+- strike_equation.png : Transparent plot of the strike equation and its root
+- strike_equation.svg : Vector version of the strike equation plot
+- protected_payoff.png : Transparent plot of protected terminal wealth and the stock leg
+- protected_payoff.svg : Vector version of the protected payoff plot
+- tables.md : Input parameters, solution, Newton convergence and terminal payoff scenarios
+- results.json : Full-precision numerical results and convergence history
 
-Example: 'User inputs the parameters [Spot date, Capital, Floor, Expiration date] like [0, 100000, 95000, 2], and [Spot Stock Price, Continuous Interest Rate, Volatility, Continuous Dividend] like [100, 0.1, 0.3, 0.02] and gets the exercise price 99.56 and the BS put option price 8.72.'
+Example: 'With [t0, V, F, T] = [0, 100000, 95000, 2] and [s0, r, sig, d] = [100, 0.1, 0.3, 0.02], the exercise price is 99.559927 and the European put price is 8.720979. Run Python using python SFEexerput.py --out results after installing requirements.txt. The protected portfolio costs 100000 initially and has a terminal floor of 95000 under the model assumptions. The stock leg uses prepaid cost s0 exp(-d tau), equivalent to continuously reinvesting dividends; interim dividends are not withdrawn.'
