@@ -17,7 +17,7 @@ Author: Ying Chen
 
 Author[Matlab]: Yanwu Wang, Ying Chen
 
-Author[SAS]: Daniel T. Pele
+Author[SAS]: Daniel Traian Pele
 
 Author[Python]: OpenAI Codex, adapted from the original algorithm by Ying Chen
 
@@ -53,12 +53,11 @@ Output:
 Example: With [t0, V, F, T] = [0, 100000, 95000, 2] and [s0, r, sig, d] = [100, 0.1, 0.3, 0.02], the exercise price is 99.559927 and the European put price is 8.720979. Run Python using python SFEexerput.py --out results after installing requirements.txt. The protected portfolio costs 100000 initially and has a terminal floor of 95000 under the model assumptions. The stock leg uses prepaid cost s0 exp(-d tau), equivalent to continuously reinvesting dividends; interim dividends are not withdrawn.
 
 ```
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/QuantLet/SFE/master/QID-3147-SFEexerput/protected_payoff.png" alt="Image" width="600"/>
+<img src="https://raw.githubusercontent.com/QuantLet/SFE/master/QID-3147-SFEexerput/protected_payoff.png" alt="Image" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/QuantLet/SFE/master/QID-3147-SFEexerput/strike_equation.png" alt="Image" width="600"/>
+<img src="https://raw.githubusercontent.com/QuantLet/SFE/master/QID-3147-SFEexerput/strike_equation.png" alt="Image" />
 </div>
 
