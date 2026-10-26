@@ -8,7 +8,7 @@ Keywords: 'Newton, black-scholes, european-option, exercise-price, financial, op
 
 Author: Ying Chen
 Author[Matlab]: Yanwu Wang, Ying Chen
-Author[SAS]: Daniel T. Pele
+Author[SAS]: Daniel Pele
 Author[Python]: 'OpenAI Codex, adapted from the original algorithm by Ying Chen'
 
 Submitted: Fri, June 05 2015 by Lukas Borke
