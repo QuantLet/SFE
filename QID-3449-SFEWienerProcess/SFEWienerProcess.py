@@ -28,8 +28,8 @@ def SFEWienerProcess(dt, c, k):
     plt.xlabel("Time t")
     plt.ylabel("Values of process $X_t$ delta")
     leg = plt.legend([f"path {i+1}" for i in range(5)], loc='lower center', bbox_to_anchor=(0.5, -0.2), ncol = 5, frameon = False)
-    for item in leg.legendHandles:
-        item.set_visible(False)
+# for item in leg.legendHandles:
+#        item.set_visible(False)
     c = [f'C{i}' for i in range(5)]
     for i,text in enumerate(leg.get_texts()) :
         text.set_color(c[i])
